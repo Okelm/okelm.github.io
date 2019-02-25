@@ -1,21 +1,15 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: Hello!
+date: "2019-02-25T22:11:51.284Z"
+description: "I just wanted to say hello"
 ---
 
-This is my first post on my new fake blog! How exciting!
+This is the first blog post here, I just wanted to say hello and put there some information about me.
 
-I'm sure I'll write a lot more interesting things in the future.
+I'm a Software developer, Frontend & Mobile creator, Team Leader, father and husband.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+I help to build software products and services from the ground up, particularly Android and iOS native or React Native apps and frontend apps in React.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+- building the team from scratch or mentor and introduce to React/React Native world a current team
+- building processes, establishing CI/CD for mobiles
+- apps deployment in general
