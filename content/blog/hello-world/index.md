@@ -1,7 +1,7 @@
 ---
 title: Hello!
 date: "2019-02-25T22:11:51.284Z"
-description: "I just wanted to say hello"
+description: "I just wanted to say hello."
 ---
 
 This is the first blog post here, I just wanted to say hello and put there some information about me.

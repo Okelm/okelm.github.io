@@ -31,7 +31,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives in Kraków, Poland and works remotely.
+              Written by <strong>{author}</strong> who works remotely in software development as a developer and leader.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Twitter
