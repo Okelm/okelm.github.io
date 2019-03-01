@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Bart Widlarz <bart.widlarz@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Okelm/okelm.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.1.17",
