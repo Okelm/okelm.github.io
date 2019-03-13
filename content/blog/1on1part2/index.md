@@ -1,7 +1,7 @@
 ---
 title: 1on1s part 2, Why to run it?
 date: "2019-03-05T13:00:00.000Z"
-description: "This time the focus is on why should we even bother running meetings like that."
+description: "This time the focus is on why should we even bother running meetings like that. There are a couple of undebatable benefits of conducting such meetings."
 ---
 
 ### Benefits for a company
