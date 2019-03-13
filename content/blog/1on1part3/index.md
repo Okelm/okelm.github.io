@@ -1,5 +1,5 @@
 ---
-title: 1on1s part 3: Advice
+title: 1on1s part 3, Advice
 date: "2019-03-13T14:10:00.000Z"
 description: "When you first invite somebody to a meeting, the message should be
               clear — it’s for us to talk. And the first meeting should be exactly as such."
