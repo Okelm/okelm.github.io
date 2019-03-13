@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Bart Widlarz`,
+    title: `Bart Widlarz's Blog`,
     author: `Bart Widlarz`,
-    description: `A personal blog of Bart Widlarz.`,
-    siteUrl: `https://widlarz.pl/`,
+    description: `As a software developer, team leader and business owner I write about technology from various perspectives.`,
+    siteUrl: `https://bwidlarz.com/`,
     social: {
       twitter: `BWidlarz`,
     },
