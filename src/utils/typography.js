@@ -6,6 +6,10 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    // To fix gatsby-remark-autolink-headers:
+    'a.anchor': {
+      boxShadow: 'none',
+    },
   }
 }
 
