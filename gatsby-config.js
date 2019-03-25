@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Bart Widlarz's Blog`,
     author: `Bart Widlarz`,
-    description: `As a software developer, team leader and business owner I write about technology from various perspectives.`,
+    description: `As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.`,
     siteUrl: `https://bwidlarz.com/`,
     social: {
       twitter: `BWidlarz`,
