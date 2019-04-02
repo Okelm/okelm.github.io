@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import profilePic from 'content/assets/profile-pic.jpg';
+import profilePic from '../../content/assets/profile-pic.jpg';
 
 import { rhythm } from "../utils/typography"
 
