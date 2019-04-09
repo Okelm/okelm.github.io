@@ -1,4 +1,212 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 02 Apr 2019 18:54:30 GMT</lastBuildDate><item><title><![CDATA[1on1s part 3, Advice]]></title><description><![CDATA[A piece of advice For leaders Introducing one on one meetings is an evolutionary process rather than a
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Apr 2019 16:32:36 GMT</lastBuildDate><item><title><![CDATA[React Native workshops]]></title><description><![CDATA[Some time ago I was invited to take part in React Native workshops as a mentor, 
+which means I was supposed to help other developers go…]]></description><link>https://bwidlarz.com//react-native-workshops/</link><guid isPermaLink="false">https://bwidlarz.com//react-native-workshops/</guid><pubDate>Tue, 09 Apr 2019 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Some time ago I was invited to take part in React Native workshops as a mentor,
+which means I was supposed to help other developers go through tasks and answer their questions.
+The workshops, centered on various topics are called DevMeetings and are run across Poland every couple of weeks.
+Let’s take a look at some of the topics we covered there:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/01800/workshops1.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGWxJRuEK//xAAaEAACAwEBAAAAAAAAAAAAAAACAwABEgQT/9oACAEBAAEFAk7MzEwgL3XlYKX0agqrP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAICAwEAAAAAAAAAAAAAAAABERIDITEC/9oACAEBAAY/AqpimHJMItj9b6K/DWRo/8QAGRABAQEBAQEAAAAAAAAAAAAAEQEAIUFR/9oACAEBAAE/IWhHt02JSQpo2iHTuesMThhfS6iKn37v/9oADAMBAAIAAwAAABCED//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAwEBPxBEbb//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8QEbL/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMWFBcdH/2gAIAQEAAT8Q6pbaPPzIKttbYJQHovGUwlolJWdzCYQRtMR3POHuLRNlXez1n//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;workshops1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/f8fb9/workshops1.jpeg&quot;
+        srcset=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/e8976/workshops1.jpeg 148w,
+/static/41369af1656ce06d9114c6b4e93e97cc/63df2/workshops1.jpeg 295w,
+/static/41369af1656ce06d9114c6b4e93e97cc/f8fb9/workshops1.jpeg 590w,
+/static/41369af1656ce06d9114c6b4e93e97cc/85e3d/workshops1.jpeg 885w,
+/static/41369af1656ce06d9114c6b4e93e97cc/d1924/workshops1.jpeg 1180w,
+/static/41369af1656ce06d9114c6b4e93e97cc/9452e/workshops1.jpeg 1770w,
+/static/41369af1656ce06d9114c6b4e93e97cc/01800/workshops1.jpeg 4032w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h4 id=&quot;what-they-learned&quot;&gt;&lt;a href=&quot;#what-they-learned&quot; aria-label=&quot;what they learned permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What They learned&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Expo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.expo.io&quot;&gt;Expo&lt;/a&gt; is a very convenient tool to use especially if you only have a
+couple of hours to present key issues related to a specific topic and
+don’t want to waste that time on configuration. It allows you to go from zero to
+running the app on a device in minutes. Also, you don’t need a Mac to run an app on iPhone.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Props, state&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The basics of React are all about these two. Props allow you to compose components
+by passing data from parents to children:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-native&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;ExampleComponent&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; text &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;text&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And state gives components the ability to control encapsulated data.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; TextInput &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-native&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ExampleForm&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;handleChange&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+       &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;TextInput&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;handleChange&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; 
+        &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;value&lt;/code&gt; state here is neither visible to the parent component nor is it injected as props are. But it’s pretty common
+to set an initial state for state based on props:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ExampleForm&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;initValue &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  
+&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As of React Native 0.57.5 where &lt;a href=&quot;https://reactjs.org/docs/hooks-intro.html&quot;&gt;React Hooks&lt;/a&gt; were introduced you can use state
+within functional components:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; TextInput &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-native&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;ExampleForm&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setValue&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;handleChange&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;setValue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+       &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;TextInput&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; 
+         &lt;span class=&quot;token attr-name&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;handleChange&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt; 
+        &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I personally opt for functions over classes to omit the confusion with &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; which is mutated over time by React.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Forms and AsyncStorage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Forms are the bread and butter of every frontend developer so it makes sense to
+present the idiomatic way of writing them in React Native. This was the place
+where we used the power of state for the purpose of saving inputs on each
+keystroke and then push it to AsyncStorage on form submit.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; AsyncStorage &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-native&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; AsyncStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;form&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; form&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; form &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; AsyncStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;form&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;AsyncStorage is not the perfect solution for this case, yet the API is pretty
+straight forward and gives a lot of functionality without much boilerplate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigation through an app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or as a web developer would call it &lt;code class=&quot;language-text&quot;&gt;routing&lt;/code&gt;. With React-navigation you set up routing almost as you would do it on the web.
+A set of screens that you access via navigation to an established route. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createStackNavigator &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-navigation&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Navigator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  List&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; List &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  Detail&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Detail &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Paths are optional, which may come as a surprise to web devs
+at the beginning but quickly becomes clear when they notice that we are in the world of mobile apps - though it’s possible to operate on paths and it’s common to use them when you open an app from the link.&lt;/p&gt;
+&lt;h4 id=&quot;what-ive-noticed&quot;&gt;&lt;a href=&quot;#what-ive-noticed&quot; aria-label=&quot;what ive noticed permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What I’ve noticed&lt;/h4&gt;
+&lt;p&gt;How many things you can do when you are passionate and curious. Mr obvious
+strikes again, I know, but it hammered home to me during the last workshops. The
+tasks given to people are mostly far from being mundane and obvious to
+participants. It challenges them and gives them additional motivation to build something new.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/a3aa0/workshops2.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.12953367875647%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYui5HPNyv/EABoQAQEAAgMAAAAAAAAAAAAAAAIBAxEAEyH/2gAIAQEAAQUC2MK8dWpTeunMVKRz/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oACAEDAQE/Aa0//8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oACAECAQE/AYw//8QAHRAAAgIBBQAAAAAAAAAAAAAAAAECEUEQEiEiUf/aAAgBAQAGPwLq3LBcoYOHRTjbXjNiTWn/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExQSFx/9oACAEBAAE/Ib3s47HSB1fkCT4BlZjF4T2fDuVAvR6DU//aAAwDAQACAAMAAAAQbC//xAAWEQEBAQAAAAAAAAAAAAAAAAAAIXH/2gAIAQMBAT8QisP/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFB/9oACAECAQE/EFrhaO3/xAAdEAEAAgICAwAAAAAAAAAAAAABESEAQTFRYZHB/9oACAEBAAE/EGkeNAuMVHJeEDzAkg22n3FxDaCHrJEBpCW8JzeAqeJCWxWRlNggPp1Gf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;workshops2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/f8fb9/workshops2.jpeg&quot;
+        srcset=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/e8976/workshops2.jpeg 148w,
+/static/09cdd7a8db1643b99385bb7fa55be380/63df2/workshops2.jpeg 295w,
+/static/09cdd7a8db1643b99385bb7fa55be380/f8fb9/workshops2.jpeg 590w,
+/static/09cdd7a8db1643b99385bb7fa55be380/85e3d/workshops2.jpeg 885w,
+/static/09cdd7a8db1643b99385bb7fa55be380/d1924/workshops2.jpeg 1180w,
+/static/09cdd7a8db1643b99385bb7fa55be380/9452e/workshops2.jpeg 1770w,
+/static/09cdd7a8db1643b99385bb7fa55be380/a3aa0/workshops2.jpeg 3088w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Also, there are many things I thought I’d known before I was asked to explain
+them in detail, like differences between &lt;code class=&quot;language-text&quot;&gt;div&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Text&lt;/code&gt;, or
+intricate details about Expo.&lt;/p&gt;
+&lt;p&gt;Last but not least, I had the opportunity to do pair programming for a couple of hours, with many developers,
+on many different issues. Yes, it was tiring, but whether you like it or not pair programming is simply an effective way of
+solving a couple of software development problems by: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Boosting the distribution of knowledge. Diminish the number of bottlenecks in the
+organization by encouraging other people to sit together and share their knowledge
+and work on solutions.&lt;/li&gt;
+&lt;li&gt;Alleviating communication bias. Real time meetings, especially when you see other
+people, are way more dynamic and allow you to express more with fewer words. Even
+though your wording might not be as specific as if you wrote them down, you have the
+ability to express yourself through gestures and intonation, which can convey emotions.
+Doubt, apprehension, excitement or cheer just to name a few. &lt;/li&gt;
+&lt;li&gt;Tightening up the feedback loop. You don’t have to wait until 2 days after you’ve finished development
+to get corrective feedback which then forces you to redesign the solution. And
+then you think that the worst thing here is that the new solution is simply
+better, if only you’d got it earlier… &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To sum up, the workshops were beneficial for both mentors and mentees. I’m looking forward to the next one!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1on1s part 3, Advice]]></title><description><![CDATA[A piece of advice For leaders Introducing one on one meetings is an evolutionary process rather than a
 revolution. It takes some time to…]]></description><link>https://bwidlarz.com//1on1part3/</link><guid isPermaLink="false">https://bwidlarz.com//1on1part3/</guid><pubDate>Wed, 13 Mar 2019 14:10:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;a-piece-of-advice&quot;&gt;&lt;a href=&quot;#a-piece-of-advice&quot; aria-label=&quot;a piece of advice permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A piece of advice&lt;/h3&gt;
 &lt;h4 id=&quot;for-leaders&quot;&gt;&lt;a href=&quot;#for-leaders&quot; aria-label=&quot;for leaders permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;For leaders&lt;/h4&gt;
 &lt;p&gt;Introducing one on one meetings is an evolutionary process rather than a
@@ -142,7 +350,7 @@ something publicly to the company or team, you probably have just skimmed
 through the topics, slightly touching them but not getting into intricate
 details which part of the team might have expected.&lt;/p&gt;
 &lt;p&gt;To sum up, commitment is not something that you can buy - it’s something
-that you have to earn. The onus here is on the leader.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[One-On-One Meetings part 1, What]]></title><description><![CDATA[A 1on1, or one on one meeting is a basic, yet a crucial tool to facilitate
+that you have to earn. The onus here is on the leader.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1-on-1 Meetings part 1, What]]></title><description><![CDATA[A 1-on-1, or one on one meeting is a basic, yet a crucial tool to facilitate
 communication in your organization. It is achieved by regular…]]></description><link>https://bwidlarz.com//1on1/</link><guid isPermaLink="false">https://bwidlarz.com//1on1/</guid><pubDate>Fri, 01 Mar 2019 22:09:25 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setCount&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
@@ -154,12 +362,12 @@ communication in your organization. It is achieved by regular…]]></description
 &lt;span class=&quot;token plain-text&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;A 1on1, or one on one meeting is a basic, yet a crucial tool to facilitate
+&lt;p&gt;A 1-on-1, or one on one meeting is a basic, yet a crucial tool to facilitate
 communication in your organization. It is achieved by regular, set up,
 face-to-face meetings that usually last between 30 to 90 minutes each and even
 though virtually anybody can set a one with anybody, we’ll focus on the one
 between leaders and those who are being led. &lt;/p&gt;
-&lt;h3 id=&quot;what-is-a-1on1-meeting-and-what-is-not&quot;&gt;&lt;a href=&quot;#what-is-a-1on1-meeting-and-what-is-not&quot; aria-label=&quot;what is a 1on1 meeting and what is not permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is a 1on1 meeting and what is not&lt;/h3&gt;
+&lt;h3 id=&quot;what-is-a-1-on-1-meeting-and-what-is-not&quot;&gt;&lt;a href=&quot;#what-is-a-1-on-1-meeting-and-what-is-not&quot; aria-label=&quot;what is a 1 on 1 meeting and what is not permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is a 1-on-1 meeting and what is not&lt;/h3&gt;
 &lt;p&gt;Each meeting may or may not have an agenda, though it should be stated
 beforehand what kind of topics are preferable.&lt;/p&gt;
 &lt;p&gt;
@@ -241,11 +449,11 @@ mission of the project or explaining recent decisions. &lt;/p&gt;
 &lt;p&gt;That’s why having a team
 leader or a manager to run those meetings is what is generally desired. It
 demands a wider perspective, closer relationship with the staff and a piece of comprehensive
-knowledge about one’s environment to run a valuable discussion that could result in actionable points.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello!]]></title><description><![CDATA[This is the first blog post here, I just wanted to say hello and put there some information about me. I’m a Software developer, Frontend…]]></description><link>https://bwidlarz.com//hello-world/</link><guid isPermaLink="false">https://bwidlarz.com//hello-world/</guid><pubDate>Mon, 25 Feb 2019 22:11:51 GMT</pubDate><content:encoded>&lt;p&gt;This is the first blog post here, I just wanted to say hello and put there some information about me.&lt;/p&gt;
-&lt;p&gt;I’m a Software developer, Frontend &amp;#x26; Mobile creator, Team Leader, father and husband.&lt;/p&gt;
-&lt;p&gt;I help to build software products and services from the ground up, particularly Android and iOS native or React Native apps and frontend apps in React.&lt;/p&gt;
+knowledge about one’s environment to run a valuable discussion that could result in actionable points.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello!]]></title><description><![CDATA[This is the first blog post here, I just wanted to say hello and post some information about me. I’m a Software Developer, Frontend & Mobile…]]></description><link>https://bwidlarz.com//hello-world/</link><guid isPermaLink="false">https://bwidlarz.com//hello-world/</guid><pubDate>Mon, 25 Feb 2019 22:11:51 GMT</pubDate><content:encoded>&lt;p&gt;This is the first blog post here, I just wanted to say hello and post some information about me.&lt;/p&gt;
+&lt;p&gt;I’m a Software Developer, Frontend &amp;#x26; Mobile Creator, Team Leader, father and husband.&lt;/p&gt;
+&lt;p&gt;I help to build software products and services from the ground up, particularly Android and iOS native or React Native apps and frontend apps in React. I also specialize in:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;building the team from scratch or mentor and introduce to React/React Native world a current team&lt;/li&gt;
+&lt;li&gt;building teams from scratch or mentoring and introducing existing teams to the world of React/React Native&lt;/li&gt;
 &lt;li&gt;building processes, establishing CI/CD for mobiles&lt;/li&gt;
-&lt;li&gt;apps deployment in general&lt;/li&gt;
+&lt;li&gt;app deployment in general&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
