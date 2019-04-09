@@ -1,7 +1,7 @@
 ---
-title: One-On-One Meetings part 1, What
+title: 1-on-1 Meetings part 1, What
 date: "2019-03-01T22:09:25.284Z"
-description: "What is a 1-on-1 meeting, what to discuss and what not? A 1on1, or one on one meeting is a basic, yet a crucial tool to facilitate
+description: "What is a 1-on-1 meeting, what to discuss and what to avoid? A 1-on-1, or one on one meeting, is a basic, yet crucial tool to facilitate
                                                                       communication in your organization..."
 ---
 
@@ -10,7 +10,7 @@ communication in your organization. It is achieved by regular, face-to-face meet
 though virtually anybody can arrange one with anybody, we’ll focus on the one
 between leaders and those who are being led. 
 
-### What is a 1on1 meeting and what is not
+### What is a 1-on-1 meeting and what is not
 
 Each meeting may or may not have an agenda, though it should be stated
 beforehand what kind of topics are preferable.
