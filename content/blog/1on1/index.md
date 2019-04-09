@@ -1,7 +1,7 @@
 ---
-title: 1-on-1 Meetings part 1, What
+title: 1on1s part 1, What
 date: "2019-03-01T22:09:25.284Z"
-description: "What is a 1-on-1 meeting, what to discuss and what to avoid? A 1-on-1, or one on one meeting, is a basic, yet crucial tool to facilitate
+description: "What is a 1on1 meeting, what to discuss and what to avoid? A 1on1, or one on one meeting, is a basic, yet crucial tool to facilitate
                                                                       communication in your organization..."
 ---
 

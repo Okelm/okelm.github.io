@@ -1,12 +1,12 @@
 ---
 title: React Native workshops
 date: "2019-04-09T18:30:00.000Z"
-description: "Running workshops"
+description: "A summary of the React Native workshops. What did participants learn? What did I learn?"
 ---
 
 Some time ago I was invited to take part in React Native workshops as a mentor, 
 which means I was supposed to help other developers go through tasks and answer their questions. 
-The workshops, centered on various topics are called DevMeetings and are run across Poland every couple of weeks. 
+The workshops, centered on various topics are called [DevMeetings](http://devmeetings.org) and are run across Poland every couple of weeks. 
 Let's take a look at some of the topics we covered there:
 
 ![](./workshops1.jpeg)
