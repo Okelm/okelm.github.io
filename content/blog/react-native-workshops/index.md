@@ -1,6 +1,6 @@
 ---
 title: React Native workshops
-date: "2019-03-01T22:09:25.284Z"
+date: "2019-04-09T18:30:00.000Z"
 description: "Running workshops"
 ---
 
