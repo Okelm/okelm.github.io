@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Apr 2019 16:32:36 GMT</lastBuildDate><item><title><![CDATA[React Native workshops]]></title><description><![CDATA[Some time ago I was invited to take part in React Native workshops as a mentor, 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Apr 2019 16:53:04 GMT</lastBuildDate><item><title><![CDATA[React Native workshops]]></title><description><![CDATA[Some time ago I was invited to take part in React Native workshops as a mentor, 
 which means I was supposed to help other developers go…]]></description><link>https://bwidlarz.com//react-native-workshops/</link><guid isPermaLink="false">https://bwidlarz.com//react-native-workshops/</guid><pubDate>Tue, 09 Apr 2019 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Some time ago I was invited to take part in React Native workshops as a mentor,
 which means I was supposed to help other developers go through tasks and answer their questions.
-The workshops, centered on various topics are called DevMeetings and are run across Poland every couple of weeks.
+The workshops, centered on various topics are called &lt;a href=&quot;http://devmeetings.org&quot;&gt;DevMeetings&lt;/a&gt; and are run across Poland every couple of weeks.
 Let’s take a look at some of the topics we covered there:&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -350,7 +350,7 @@ something publicly to the company or team, you probably have just skimmed
 through the topics, slightly touching them but not getting into intricate
 details which part of the team might have expected.&lt;/p&gt;
 &lt;p&gt;To sum up, commitment is not something that you can buy - it’s something
-that you have to earn. The onus here is on the leader.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1-on-1 Meetings part 1, What]]></title><description><![CDATA[A 1-on-1, or one on one meeting is a basic, yet a crucial tool to facilitate
+that you have to earn. The onus here is on the leader.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1on1s part 1, What]]></title><description><![CDATA[A 1on1, or one on one meeting is a basic, yet a crucial tool to facilitate
 communication in your organization. It is achieved by regular…]]></description><link>https://bwidlarz.com//1on1/</link><guid isPermaLink="false">https://bwidlarz.com//1on1/</guid><pubDate>Fri, 01 Mar 2019 22:09:25 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Counter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setCount&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
@@ -362,7 +362,7 @@ communication in your organization. It is achieved by regular…]]></description
 &lt;span class=&quot;token plain-text&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;A 1-on-1, or one on one meeting is a basic, yet a crucial tool to facilitate
+&lt;p&gt;A 1on1, or one on one meeting is a basic, yet a crucial tool to facilitate
 communication in your organization. It is achieved by regular, set up,
 face-to-face meetings that usually last between 30 to 90 minutes each and even
 though virtually anybody can set a one with anybody, we’ll focus on the one
