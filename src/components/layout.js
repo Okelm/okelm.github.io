@@ -62,9 +62,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          Copyright © 2019 Bartłomiej Widlarz
-        </footer>
+        <footer>Copyright © 2019 Bartłomiej Widlarz</footer>
       </div>
     )
   }

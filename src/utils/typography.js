@@ -1,4 +1,4 @@
-import './global.css';
+import "./global.css"
 
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
@@ -9,8 +9,8 @@ Wordpress2016.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     // To fix gatsby-remark-autolink-headers:
-    'a.anchor': {
-      boxShadow: 'none',
+    "a.anchor": {
+      boxShadow: "none",
     },
   }
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import profilePic from '../../content/assets/profile-pic.jpg';
+import profilePic from "../../content/assets/profile-pic.jpg"
 
 import { rhythm } from "../utils/typography"
 
@@ -24,19 +24,16 @@ function Bio() {
                 marginRight: rhythm(1 / 2),
                 width: rhythm(2),
                 height: rhythm(2),
-                borderRadius: '50%',
+                borderRadius: "50%",
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who works remotely in software development as a developer and leader.
+              Written by <strong>{author}</strong> who works remotely in
+              software development as a developer and leader.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Twitter
-              </a>
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
               {` `}
-              <a href={`https://linkedin.com/in/widlarz`}>
-                Linkedin
-              </a>
+              <a href={`https://linkedin.com/in/widlarz`}>Linkedin</a>
             </p>
           </div>
         )
