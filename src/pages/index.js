@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import CookieConsent from "react-cookie-consent";
 
 class BlogIndex extends React.Component {
   render() {
@@ -18,6 +19,14 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`bart`, `bartek`, `widlarz`, `bart widlarz`, `bartek widlarz`]}
         />
+        <CookieConsent
+          style={{ background: "linear-gradient(to bottom, grey , #2B373B, #2B373B, #2B373B, #2B373B, #2B373B)", fontFamily: `Montserrat`, fontSize: "13px"}}
+          buttonText="ok"
+          contentStyle={{  flex: "1 200px", margin: "10px" }}
+          buttonStyle={{ borderRadius: "15px", backgroundColor: '#007acc', color: '#ffffff', fontSize: "13px", fontFamily: `Montserrat` }}
+        >
+          This website uses cookies.
+        </CookieConsent>
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
