@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import profilePic from "../../content/assets/profile-pic.jpg"
-
+import { SocialIcon } from "react-social-icons"
 import { rhythm } from "../utils/typography"
 
 function Bio() {
@@ -31,15 +31,28 @@ function Bio() {
               Written by <strong>{author}</strong> who works remotely in
               software development as a developer and leader.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
-              {` `}
-              <a href={`https://linkedin.com/in/widlarz`}>Linkedin</a>
-              {` `}
               <b>
                 <a href={`https://bwidlarz.com/hello-world/#contact-me`}>
                   CONTACT ME
                 </a>
               </b>
+              <br />
+              <br />
+              <SocialIcon
+                url="https://linkedin.com/in/widlarz"
+                style={{ color: "#FFFFFF" }}
+              />
+              {` `}
+              <SocialIcon
+                url={`https://twitter.com/${social.twitter}`}
+                style={{ color: "#FFFFFF" }}
+              />
+              {` `}
+              <SocialIcon
+                url="https://github.com/Okelm"
+                style={{ color: "#FFFFFF" }}
+              />
+              {` `}
             </p>
           </div>
         )
