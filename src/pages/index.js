@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import CookieConsent from "react-cookie-consent"
+import { Calendly } from "../components/Calendly"
 
 class BlogIndex extends React.Component {
   render() {
@@ -23,6 +24,8 @@ class BlogIndex extends React.Component {
             `widlarz`,
             `bart widlarz`,
             `bartek widlarz`,
+            `bartlomiej widlarz`,
+            `bartłomiej widlarz`,
           ]}
         />
         <CookieConsent

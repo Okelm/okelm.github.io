@@ -5,10 +5,12 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { Calendly } from "../components/calendly"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const isHelloPost = post.frontmatter.title === "Hello!"
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
@@ -30,13 +32,13 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {isHelloPost && <Calendly />}
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
         <Bio />
-
         <ul
           style={{
             display: `flex`,

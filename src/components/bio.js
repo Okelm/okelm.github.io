@@ -34,6 +34,12 @@ function Bio() {
               <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
               {` `}
               <a href={`https://linkedin.com/in/widlarz`}>Linkedin</a>
+              {` `}
+              <b>
+                <a href={`https://bwidlarz.com/hello-world/#contact-me`}>
+                  CONTACT ME
+                </a>
+              </b>
             </p>
           </div>
         )
