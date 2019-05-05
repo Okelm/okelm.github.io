@@ -10,7 +10,7 @@ communication in your organization. It is achieved by regular, face-to-face meet
 though virtually anybody can arrange one with anybody, we’ll focus on the one
 between leaders and those who are being led. 
 
-### What is a 1-on-1 meeting and what is not
+### What is a 1on1 meeting and what is not
 
 Each meeting may or may not have an agenda, though it should be stated
 beforehand what kind of topics are preferable.
