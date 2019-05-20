@@ -1,6 +1,6 @@
 ---
 title: How to work remotely so that they love it
-date: "2019-05-06"
+date: "2019-05-20"
 description: "Remote work gains in popularity year by year. It's definitely a global trend that has been enabled by the Internet and allows one to provide one’s expertise to any part of the world."
 ---
 
@@ -36,7 +36,7 @@ That’s one of the biggest obstacle to overcome in remote work. Nothing can rep
 
 1.  Invest in top quality communication tools
 
-Spend $149 and buy a good microphone like[ Blue Yeti](https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S). You will be heard loud and clear, literally and figuratively. 
+Spend $149 and buy a good microphone like [Blue Yeti](https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S). You will be heard loud and clear, literally and figuratively. 
 
 Spend $125 on a [webcam](https://www.logitech.com/en-us/product/c930e-webcam). 
 
@@ -53,7 +53,7 @@ While most of the communication will be done via asynchronous channels, sometime
 
 ### Encourage the team to record meetings
 
-Especially those where somebody gives instructions or an introduction to a new tool or shares knowledge. Nobody can memorize step by step instructions like these: [https://youtu.be/Xh2nnjttOwo](https://youtu.be/Xh2nnjttOwo)
+Especially those where somebody gives instructions or an introduction to a new tool or shares knowledge. Nobody can memorize step by step [instructions like these](https://youtu.be/Xh2nnjttOwo). Sure that they become obsolete with time, but it's better to have them documented anyway.
 
 It would be more beneficial to record them, publish the material within the company and let people get back to it when they are in need. If you work remotely you might be the one who ends up using it first.
 
@@ -86,9 +86,9 @@ Whether it's honest and a company is really committed to these values is anybody
 
 When you work remotely for a company located in a different country it's almost as if you were really there. **You must read up on their customs.** 
 
-[**Hofstede Insights**](https://www.hofstede-insights.com/product/compare-countries/) has been trying to categorize differences between cultures into groups and connect these groups with countries for a long time now. Even though they compare countries, I believe they should rather focus on comparing cultures themselves. Nevertheless, some conclusions hit home and it's worth checking out. 
+[Hofstede Insights](https://www.hofstede-insights.com/product/compare-countries/) has been trying to categorize differences between cultures into groups and connect these groups with countries for a long time now. Even though they compare countries, I believe they should rather focus on comparing cultures themselves. Nevertheless, some conclusions hit home and it's worth checking out. 
 
-[These are all very influential factors](http://localhost:8000/remote-work-so-they-love/#hofstede-categories-in-detail) that may work for you if you handle them wisely, but they can also take you aback if you underestimate their influence. 
+[These are all very influential factors](https://www.hofstede-insights.com/models/national-culture/) that may work for you if you handle them wisely, but they can also take you aback if you underestimate their influence. 
 
 #### Let's compare!
 ![https://www.hofstede-insights.com/country-comparison/norway,poland,the-usa/](./compare.png)
@@ -110,19 +110,6 @@ Even though I don't fit into the generalized version of a Polish guy, I must agr
  
  Knowing your own environment is one thing, and it will help you, but there are even more benefits if you are open to other coworkers' cultures and beliefs. You will understand that some of them are just part of their identity and cannot be fought back or altered. Instead, they should be understood and some work towards accepting these differences might do wonders for your relationships.
 
- #### Hofstede categories in detail:
-
- Let's look at all of the categories:
-1. **Distance to power**: The extent to which people accept differences between one another, particularly in the field of power, income and influence. The bigger the distance, the more probable that individuals will accept the established hierarchy. This approach may very well hamper innovation and stop down-top communication leaving organizations without any feedback and initiative which „normally” would be expected from employees. Though „normally” means various things depending on culture. And that's the beauty! We are different, but we must first notice it, and then understand the consequences.
-
-2. **Individualism**: It's self-explanatory, the opposite is collectivism. People with more individualist traits are more focused on their own goals, they are driven by their own beliefs (however crazy they may be) and less dependent on communities or groups. It might be hard for them to play in a team and follow the team's goals.
-
-3. **Masculinity**: The more masculine a society, the more success driven it is. Hence it is less important to do what you like and rather focus on things that bring you success, whether it's fame, wealth or respect.
-
-4. **Uncertainty Avoidance**: Societies with low scores are more open to novelties and innovation, also they are better at managing a changing environment. But it comes with the risk-taking approach which might not be desirable in some cases.
-
-5. **Long Term Orientation** and **Indulgence**: Savings, education, taking care of relationships, all of them are traits related to long term orientation. Whereas Indulgence is related to the extent to which individuals are keen to allow themselves to do what their instincts tell them. They are not focused on **Restraint**, which is said to be the opposite.
-
 ### To sum up
 
 While very attractive and beneficial, remote work comes with some obstacles. Handle them properly and you will be able to focus only on the benefits and forget about the problems. 
@@ -130,3 +117,10 @@ While very attractive and beneficial, remote work comes with some obstacles. Han
 Be mindful of how you communicate, stay visible when it comes to how the job is going and, last but not least, embrace the diversity.
 
 I hope you will be fine with the piece of advice I gave you. I’m constantly learning how to work remotely, both by working remotely within teams and building and running new teams from time to time. If you have any suggestions I would appreciate any feedback. 
+
+Resources again:
+- [Live Sharing for VS code](https://visualstudio.microsoft.com/services/live-share)
+- [Time zone buddy](https://www.worldtimebuddy.com/)
+- [Country comparison with regard to culture](https://www.hofstede-insights.com/country-comparison)
+- [Webcam I use](https://www.logitech.com/en-us/product/c930e-webcam)
+- [Microphone I use](https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S)
