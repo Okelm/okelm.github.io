@@ -1,4 +1,231 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 05 May 2019 11:41:48 GMT</lastBuildDate><item><title><![CDATA[React Native workshops]]></title><description><![CDATA[Some time ago I was invited to take part in React Native workshops as a mentor, 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 20 May 2019 16:22:25 GMT</lastBuildDate><item><title><![CDATA[How to work remotely so that they love it]]></title><description><![CDATA[Remote work gains in popularity year by year. It’s definitely a global trend that has been enabled by the Internet and allows one to provide…]]></description><link>https://bwidlarz.com//remote-work-so-they-love/</link><guid isPermaLink="false">https://bwidlarz.com//remote-work-so-they-love/</guid><pubDate>Mon, 20 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Remote work gains in popularity year by year. It’s definitely a global trend that has been enabled by the Internet and allows one to provide one’s expertise to any part of the world. While it definitely gives the possibility to freely exchange resources, it also comes with some obstacles that hinder its implementation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;time zones&lt;/li&gt;
+&lt;li&gt;native languages&lt;/li&gt;
+&lt;li&gt;different culture&lt;/li&gt;
+&lt;li&gt;various communication biases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I will try to address all the issues.&lt;/p&gt;
+&lt;h3 id=&quot;adjust-your-working-time-to-the-office-hours&quot;&gt;&lt;a href=&quot;#adjust-your-working-time-to-the-office-hours&quot; aria-label=&quot;adjust your working time to the office hours permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Adjust your working time to the office hours&lt;/h3&gt;
+&lt;p&gt;If the time difference is 6h, as in the case of Poland and New York, USA, it is advised to work afternoons (sometimes it’s a condition). You want to be able to work at least 3–4 hours within the other time zone. I recommend using &lt;a href=&quot;https://www.worldtimebuddy.com/&quot;&gt;this tool&lt;/a&gt; to visualize the difference.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/01900/timeZones.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 12.185297079556898%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAe0lEQVQI1xXDwRKCIBRAUf//79q0auGMkRCI8p6AKXqrM3M67wP/1wXLkrDWUXLGz4WHSfRWGWPh007O8/jdaceBFMUuL6xEhiTcx8Ctd3QigjEvaq3EGHHOoarUvZHKTpCNwSnDWzEh8/QrWhtzVqJO1K2gZSWtipeJLzJ1mGVejc18AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;timeZones&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/b9e4f/timeZones.png&quot;
+        srcset=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/cf440/timeZones.png 148w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/d2d38/timeZones.png 295w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/b9e4f/timeZones.png 590w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/f9b6a/timeZones.png 885w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/2d849/timeZones.png 1180w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/bbefa/timeZones.png 1770w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/01900/timeZones.png 1986w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This time is usually used for meetings, demos, code reviews, pair programming, but if you’re in the minority it might happen that the meetings take place in the evening and then you might end up having meetings at around 9pm or so.&lt;/p&gt;
+&lt;h3 id=&quot;try-to-have-pair-programming-sessions-as-if-you-were-in-the-office&quot;&gt;&lt;a href=&quot;#try-to-have-pair-programming-sessions-as-if-you-were-in-the-office&quot; aria-label=&quot;try to have pair programming sessions as if you were in the office permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Try to have pair programming sessions as if you were in the office&lt;/h3&gt;
+&lt;p&gt;There are dozens of benefits of programming in pairs (or more)&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/50bbc/pairProgramming.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 76.19047619047619%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACu0lEQVQ4y31UW0tUURTeFBZEERH4ID10fYjClyDppTeFJB9KBqQr+QN6KXoIAvHFHhwpKiUviVZeB8VAQbxjmYV2gxA1LSznembGmTPOzNn7nPlae8+MjhO24YPFx1nfXt9aax8GywRgERJbofgsjr4zuIAwrSyYEELAsiyw37qAYzmG14sxtC5E0TgXxeiqgfkgR+dSDC+JS/PTbiMl/O+RYvKwrh9RnOzQkNfqxZ4GD1itG+f7/LB/ieBYmw8Hm73Y20j8MxeujQQRMUwsrAn8CpsKPwkhwyJDJqxEAsyxFMW5AQ2FQ34Uj/hxus+LksEA7N90FPT7FF8y6scRhwe3p0K4/yGMU50a9jV5sP8FXVTnpst11Q5O9lnbXBzMtg52KYqcshhY4ToKasOoGIuCFRN/OYqdNuKLdFzv0XF3NoT8N15cHPOjaFjDYbqo6rOu7ArqBlsOGGieMNAywdE0bqB+2MDgPPXQw9E1KdD7XqD7nUD7JMe8xmHrCoPdCiHvXgS5dyJg5UFUTElBE4agCrdr8mpEYDoQx0zQwOyagbdaHC5DoG7SQOlDjqs1HFeqOUqrDfQvJodlyQq5SCrzFGI8uUJVn3Qcb/fhbI8fZxwamN0JG/U2uWLZSEDqqLUxzWSQoAlJCCtZsf1rBAW9flwYCCC3xQv2yImbo0ElEOdSYBMm5Usdmc/SYuljpsJqEszv1nCUVudEhw+HXnlRPr62YW3bPRRUqknjloSEHL1MqpzRaSdd2N3gxoFmWo/n7o0K5eswrc0cGW+8FDPDbqZlJfjYiR31biUm4xtKkCxmfJ+GLEpZ3q6HlbMk+MSJHKpwF4E9daUqlD1LqFeRzrGUYKqHIjWdrZaBBx9p32pWlW0FisuGNi1n5ljKcmrK2UNJh8shjoGVOIb+JCHj7wGuKkz85+fwFxMwH4SJJGhMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pairProgramming&quot;
+        title=&quot;&quot;
+        src=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/b9e4f/pairProgramming.png&quot;
+        srcset=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/cf440/pairProgramming.png 148w,
+/static/92114ea205feb6d6e574d4defdaaef9e/d2d38/pairProgramming.png 295w,
+/static/92114ea205feb6d6e574d4defdaaef9e/b9e4f/pairProgramming.png 590w,
+/static/92114ea205feb6d6e574d4defdaaef9e/50bbc/pairProgramming.png 756w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Plan pair programming sessions ahead of time. It might not be aligned with the engineering culture in some companies though, so don’t panic if somebody looks at you as if you were a weirdo. Be the first one to mention screen sharing and show that you’re open to suggestions. &lt;/p&gt;
+&lt;p&gt;You definitely need the right tooling to run an effective session. If you’re using &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS code&lt;/a&gt; you’ll need the &lt;a href=&quot;https://visualstudio.microsoft.com/services/live-share&quot;&gt;Live Sharing&lt;/a&gt; plugin. It will simulate one keyboard shared between two or more software developers.&lt;/p&gt;
+&lt;h3 id=&quot;set-a-high-standard-of-communication-even-if-nobody-expects-it&quot;&gt;&lt;a href=&quot;#set-a-high-standard-of-communication-even-if-nobody-expects-it&quot; aria-label=&quot;set a high standard of communication even if nobody expects it permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Set a high standard of communication even if nobody expects it&lt;/h3&gt;
+&lt;p&gt;That’s one of the biggest obstacle to overcome in remote work. Nothing can replace the face to face interaction, but on the other hand engineers usually don’t enjoy working in groups side by side and so it’s not always a bad thing. Anyway, there are a couple of things we can do to address the communication overhead.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Invest in top quality communication tools&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Spend $149 and buy a good microphone like &lt;a href=&quot;https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S&quot;&gt;Blue Yeti&lt;/a&gt;. You will be heard loud and clear, literally and figuratively. &lt;/p&gt;
+&lt;p&gt;Spend $125 on a &lt;a href=&quot;https://www.logitech.com/en-us/product/c930e-webcam&quot;&gt;webcam&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/969f7/mic.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.93055256933992%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABoiS3LQEAX//EABsQAAICAwEAAAAAAAAAAAAAAAECAxMAERIh/9oACAEBAAEFAkkriaTkhti4nAwYr4v/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BSf/EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhAhERJh/9oACAEBAAY/AmsNEy3N6rkf/8QAGxAAAwACAwAAAAAAAAAAAAAAAAERITFBUWH/2gAIAQEAAT8hgqV7XIzXXdE19nu1yoyJYZSZCEj/2gAMAwEAAgADAAAAEMT/AP/EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAwEBPxBNrn//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8Q2wYL/8QAGxABAAMBAAMAAAAAAAAAAAAAAREhMQBRcbH/2gAIAQEAAT8QgJABspYr7yCFhRt5xk1DJ4UXJOyGmfUU9MyhgL3iiLVz57//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;mic&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/c739e/mic.jpg&quot;
+        srcset=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/8ee9c/mic.jpg 148w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/ebbe7/mic.jpg 295w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/c739e/mic.jpg 590w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/5413e/mic.jpg 885w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/4efde/mic.jpg 1180w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/abfc3/mic.jpg 1770w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/969f7/mic.jpg 4651w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+At this point you have a good setup for being heard and seen.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Be on time to meetings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Being late to meetings is disrespectful. You want to be there a couple of minutes before the meeting starts, yet it really depends on the company culture what “on time” means, but before you learn it, it’s better to simply stick to that rule. &lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Async communication is great, but don’t overestimate it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While most of the communication will be done via asynchronous channels, sometimes it’s worth jumping on a call and discussing an issue without the need to write and read again and again. If you’re worried that you will lose the benefit of having the conversation written down somewhere — no worries, you can record the dialog!&lt;/p&gt;
+&lt;h3 id=&quot;encourage-the-team-to-record-meetings&quot;&gt;&lt;a href=&quot;#encourage-the-team-to-record-meetings&quot; aria-label=&quot;encourage the team to record meetings permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Encourage the team to record meetings&lt;/h3&gt;
+&lt;p&gt;Especially those where somebody gives instructions or an introduction to a new tool or shares knowledge. Nobody can memorize step by step &lt;a href=&quot;https://youtu.be/Xh2nnjttOwo&quot;&gt;instructions like these&lt;/a&gt;. Sure that they become obsolete with time, but it’s better to have them documented anyway.&lt;/p&gt;
+&lt;p&gt;It would be more beneficial to record them, publish the material within the company and let people get back to it when they are in need. If you work remotely you might be the one who ends up using it first.&lt;/p&gt;
+&lt;h3 id=&quot;raise-visibility-by-staying-transparent&quot;&gt;&lt;a href=&quot;#raise-visibility-by-staying-transparent&quot; aria-label=&quot;raise visibility by staying transparent permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Raise visibility by staying transparent&lt;/h3&gt;
+&lt;p&gt;On the whole, you should try to use the tooling provided by the team and in most cases it will be comprised of project management platforms, source code repos and communication channels.&lt;/p&gt;
+&lt;p&gt;In my opinion in most cases you’ll be just fine using what other team members use. Some exceptions depend on how your role is different from most roles in the team.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tomj.github.io/2014/09/25/git-interactive-rebasing-aka-rebasin.html&quot;&gt;&lt;img src=&quot;http://tomj.github.io/images/2014-09-25-git-interactive-rebasing-aka-rebasin/pre_squash.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you’re the first remote engineer in the team&lt;/strong&gt;, you should think of being proactive in staying visible with what you do. If you get hired as the first remote person ever, you’re definitely an expert and you’re the one who is expected to create an effective means of collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you’re not the first one, but your time zone is very different&lt;/strong&gt; from the rest of the team, and you work mostly in your time zone, you must be cautious since the good practices within the team might not be enough in your case. You will mostly communicate in an async fashion, so you should place a lot of importance on setting a high standard to raise visibility. &lt;/p&gt;
+&lt;p&gt;Regardless of your situation there is a piece of advice on how to achieve this:
+&lt;strong&gt;Divide work into smaller chunks so that you can deliver daily. Describe the job that is done with a descriptive pull/merge request message with video or gifs and by small and self-explanatory commits.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;we-are-all-different&quot;&gt;&lt;a href=&quot;#we-are-all-different&quot; aria-label=&quot;we are all different permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;We are all different&lt;/h3&gt;
+&lt;p&gt;It’s a business’s vested interest to hire the most qualified candidates irrespective of differences. It should go without saying and it indeed does in a great number of IT companies, but some do include the following information to clarify though:    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We are ADA compliant and handicap accessible.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Whether it’s honest and a company is really committed to these values is anybody’s guess, but you should definitely stay fair. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is one of the greatest advantages of a highly competitive market. It supports expertise and doesn’t give a damn about your personal traits, which are meaningless from a business perspective.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;be-aware-of-the-differences-in-culture&quot;&gt;&lt;a href=&quot;#be-aware-of-the-differences-in-culture&quot; aria-label=&quot;be aware of the differences in culture permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Be aware of the differences in culture&lt;/h3&gt;
+&lt;p&gt;When you work remotely for a company located in a different country it’s almost as if you were really there. &lt;strong&gt;You must read up on their customs.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hofstede-insights.com/product/compare-countries/&quot;&gt;Hofstede Insights&lt;/a&gt; has been trying to categorize differences between cultures into groups and connect these groups with countries for a long time now. Even though they compare countries, I believe they should rather focus on comparing cultures themselves. Nevertheless, some conclusions hit home and it’s worth checking out. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hofstede-insights.com/models/national-culture/&quot;&gt;These are all very influential factors&lt;/a&gt; that may work for you if you handle them wisely, but they can also take you aback if you underestimate their influence. &lt;/p&gt;
+&lt;h4 id=&quot;lets-compare&quot;&gt;&lt;a href=&quot;#lets-compare&quot; aria-label=&quot;lets compare permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Let’s compare!&lt;/h4&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3e2b252d2758d945719d38132f814bbf/41fac/compare.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 59.60945529290853%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACGElEQVQoz42SW1PTUBSF+Vv+Av+KLz764vjKm44zjjNeZnRGFMdbAYsVbUsrbYGhVC4WUVHo1V7SlN7SlFxOPk+TphTkgZ1JsvbOmpW99zpTuOHgON7bA45XncBMQI/mjO9TLkwNH/YoWa3rXI1WuRKrMR0sk3xwwOf7eR6uPeLW/nWm925yY+camea6y7ds62JBMUqKmsnMYZcnRz2Svzrk0yp/0i0ypa8sKyFW6hHC1Q9U9JLLt4X9v6APfNHLhnDEmbHPdDgpOkQnlkVvoLm7EraDkFe/P6Db0XAzKXZ+rb7OuENd1xFyBNt0qOplorWQ9xNZG4aS08jttrya7YwNc4RAH+inHQrhgd+ZplQVvM0bhLezRJUFGMBG5htF45DSfoejreNRK8IVUzWDpt5jrRGXxgp/h7hjpMMlCpUf3Nvv82J+m7gShA4shCLMHy8zkzCIJb9QNP+SL8gPukWgZBAv1+Q077BGk7g7XFIMHr85IJp7yZ3vPZ7PbRGpBxCyocWPUV6pMW5HbBbis8yqWe4G2mSyn3hWafN08YilwmtsxKlgqmkSXCmxV0sxl+sRSfxkU02RLdok1zdJtXd5v2WwsZMg0SkSXNVIHYSIqi2C4QLpyoqU84/NaCdqQ8E4MaUpBn1NwzIttMFAmtWXJgjarabkqK4JjUadbrs3dAy973HHLvtACDF26qKYPG9DI89z/fwflzOG3rUpzfEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;https://www.hofstede-insights.com/country-comparison/norway,poland,the-usa/&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3e2b252d2758d945719d38132f814bbf/b9e4f/compare.png&quot;
+        srcset=&quot;/static/3e2b252d2758d945719d38132f814bbf/cf440/compare.png 148w,
+/static/3e2b252d2758d945719d38132f814bbf/d2d38/compare.png 295w,
+/static/3e2b252d2758d945719d38132f814bbf/b9e4f/compare.png 590w,
+/static/3e2b252d2758d945719d38132f814bbf/f9b6a/compare.png 885w,
+/static/3e2b252d2758d945719d38132f814bbf/2d849/compare.png 1180w,
+/static/3e2b252d2758d945719d38132f814bbf/bbefa/compare.png 1770w,
+/static/3e2b252d2758d945719d38132f814bbf/41fac/compare.png 1946w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Take &lt;a href=&quot;https://www.hofstede-insights.com/country-comparison/norway,poland,the-usa/&quot;&gt;Poland, Norway and the United States&lt;/a&gt; as an example, and &lt;strong&gt;have some fun comparing them and focusing on Poland&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/fun-acedf88e9f9b6129029c749dc283b7a9.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Relatively high Distance to power and quite low Individualism is definitely what I would expect to be clearly visible in the Polish society now. Hell yeah, whether it’s the influence of years of occupation, wars and socialism I don’t know, but Poles in general are keen to accept authority (as long as it’s Polish, heh).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We are all men, and high Masculinity expresses this, that is, being result driven rather than having fun at work. Even women are men. They must be in order to survive here. I mean, they must be competitive, we all must be. Nobody will pay you just for being special or different.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Uncertainty Avoidance scored almost 100%… “But what is Uncertainty” a Pole may ask you one day. “I haven’t met any in my entire life!“. Totally, most Poles are satisfied with a stable 9-5 job, spending their entire life in the same place, apartment or house.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By and large Poles are long-term oriented and are quite restrained when it comes to allowing for some enjoyment in their lives. Omg they must be boring as hell! (they are)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Even though I don’t fit into the generalized version of a Polish guy, I must agree that I was raised within such a society. I feel, however, that I recognized these traits and intentionally ditched those which I didn’t accept
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/8d0ff/chart.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABxUlEQVQoz2VT2Y7TQBDMfyEhHgjL7mbGY+NjbMdXYsdXgjglhAQSPPADPPIFfGXRNYuzCTyU3N0zU119eJWVNUKbwtManufB9320bYu6rnE4HFCW5TlujDmDPuOXMforPwjgm8dDay2apkHf9zgejw+EjCfJ1eM4jqH/iljA+IqG9uXAaKSitCgLZFmGNE1xOp2Qi63v7qCDV444CkN3zoR5niORRIt6pzC4D/D06xPcf7/FvJ/R9Z2oKpAmFvvdDlFmsRECf3iHqtlJO/aYpgnzPDvQJjmTOEKjDV70a+hJYRxHDP2IqmyQ7WqY3MI0W2x+/sD+41u8HgZMQsJ7BAnZHioNpHWO0DNSu5Im3wZ4+WGNZ7+ew/v9BfH7Abqw8GyI5NOI9k2PfteeyRaw5KWXrofGk9p9cUSpKja4+bbGzecQykbQkiyMIwztAU3VoJOpH7oOA5VKqVT235QdoTwkfOUjUhG2YYpt+tCTKIrQdq0rrxMylsYYyfhdlD1OmSULqYMElFawqXUT5soopVycqqqqOpfHyXIQ/6q8UrhkogqquVRQFMWVTzABf4KrtblkJ6iAS8sFp71cvFzey56RbAH9P0qtvUpsRSMKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;chart&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/b9e4f/chart.png&quot;
+        srcset=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/cf440/chart.png 148w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/d2d38/chart.png 295w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/b9e4f/chart.png 590w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/f9b6a/chart.png 885w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/2d849/chart.png 1180w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/8d0ff/chart.png 1440w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; Knowing your own environment is one thing, and it will help you, but there are even more benefits if you are open to other coworkers’ cultures and beliefs. You will understand that some of them are just part of their identity and cannot be fought back or altered. Instead, they should be understood and some work towards accepting these differences might do wonders for your relationships.&lt;/p&gt;
+&lt;h3 id=&quot;to-sum-up&quot;&gt;&lt;a href=&quot;#to-sum-up&quot; aria-label=&quot;to sum up permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;To sum up&lt;/h3&gt;
+&lt;p&gt;While very attractive and beneficial, remote work comes with some obstacles. Handle them properly and you will be able to focus only on the benefits and forget about the problems. &lt;/p&gt;
+&lt;p&gt;Be mindful of how you communicate, stay visible when it comes to how the job is going and, last but not least, embrace the diversity.&lt;/p&gt;
+&lt;p&gt;I hope you will be fine with the piece of advice I gave you. I’m constantly learning how to work remotely, both by working remotely within teams and building and running new teams from time to time. If you have any suggestions I would appreciate any feedback. &lt;/p&gt;
+&lt;p&gt;Resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://visualstudio.microsoft.com/services/live-share&quot;&gt;Live Sharing for VS code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.worldtimebuddy.com/&quot;&gt;Time zone buddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hofstede-insights.com/country-comparison&quot;&gt;Country comparison with regard to culture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.logitech.com/en-us/product/c930e-webcam&quot;&gt;Webcam I use&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S&quot;&gt;Microphone I use&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[React Native workshops]]></title><description><![CDATA[Some time ago I was invited to take part in React Native workshops as a mentor, 
 which means I was supposed to help other developers go…]]></description><link>https://bwidlarz.com//react-native-workshops/</link><guid isPermaLink="false">https://bwidlarz.com//react-native-workshops/</guid><pubDate>Tue, 09 Apr 2019 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Some time ago I was invited to take part in React Native workshops as a mentor,
 which means I was supposed to help other developers go through tasks and answer their questions.
 The workshops, centered on various topics are called &lt;a href=&quot;http://devmeetings.org&quot;&gt;DevMeetings&lt;/a&gt; and are run across Poland every couple of weeks.
