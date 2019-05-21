@@ -118,7 +118,7 @@ Be mindful of how you communicate, stay visible when it comes to how the job is 
 
 I hope you will be fine with the piece of advice I gave you. I’m constantly learning how to work remotely, both by working remotely within teams and building and running new teams from time to time. If you have any suggestions I would appreciate any feedback. 
 
-Resources again:
+Resources:
 - [Live Sharing for VS code](https://visualstudio.microsoft.com/services/live-share)
 - [Time zone buddy](https://www.worldtimebuddy.com/)
 - [Country comparison with regard to culture](https://www.hofstede-insights.com/country-comparison)
