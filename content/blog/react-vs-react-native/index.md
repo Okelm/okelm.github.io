@@ -1,32 +1,32 @@
 ---
 title: From React Web to React Native
-date: "2019-04-20"
-description: "Comparision of these two realms"
+date: "2019-06-27"
+description: "Comparison of these two realms"
 ---
 
-- [Moving between React <-> React Native projects back and forth](http://localhost:8000/react-vs-react-native/#moving-between-react---react-native-back-and-forth) 
-- [Differences in code](http://localhost:8000/react-vs-react-native/#differences-in-code)
-- [They are only renderers](http://localhost:8000/react-vs-react-native/#differences-in-code)
-- [Other differences](http://localhost:8000/react-vs-react-native/#other-differences)
-- [So maybe React Native Web?](http://localhost:8000/react-vs-react-native/#so-maybe-react-native-web)
+- [Moving back and forth between React <-> React Native projects](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth) 
+- [Differences in code](https://bwidlarz.com/react-vs-react-native/#differences-in-code)
+- [They are only renderers](https://bwidlarz.com/react-vs-react-native/#differences-in-code)
+- [Other differences](https://bwidlarz.com/react-vs-react-native/#other-differences)
+- [So maybe React Native Web?](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)
 
-### Moving between React <-> React Native back and forth 
+### Moving back and forth between React <-> React Native 
 
-Some React web devs are a bit scared of starting using React Native and they ask questions whether it's hard and what are the differences between these two. 
+Some React web devs are a bit scared of starting to use React Native and they ask questions whether it's hard and what are the differences between the two. 
 
 **React Native -> React**
 
 I can tell from my experience that moving from React Native to React
-was pretty seamless, especially if you know web API. Some stuff like hot reloading are inspired by web solutions, and they are not perfectly implemented on mobile. 
+was pretty seamless, especially if you know web API. Some features, like hot reloading, are inspired by web solutions, and they are not perfectly implemented on mobile. 
 
 **React -> React Native**
 
-So when I got back from React project to React Native project again it struck me
-how much more hassle there are to get it all working without tools like Expo. Not to mention a process of deploying and publishing apps, which either demands a specilized tool like Bitrise or App Center, or a good amount of time and energy invested in building CI/CD from scratch.
+So when I got back from a React project to a React Native project again it struck me
+how much more hassle there is to get it all working without tools like [Expo](https://expo.io/). Not to mention the process of deploying and publishing apps, which either demands a specialized tool like [Bitrise](https://bitrise.io) or [App Center](https://appcenter.ms/), or a good amount of time and energy invested in building CI/CD from scratch (even with [Fastlane](https://fastlane.tools/) it takes some doing).
 
 ### Differences in code
 
-The one difference that everybody notices at once is that **in lieu of divs you
+The one difference that everybody notices at once is that **in place of divs you
 have [Views](https://facebook.github.io/react-native/docs/view)**.
 
 ```jsx{2}
@@ -45,7 +45,7 @@ function ReactNative() (
 )
 ```
 #### CSS?
-The other one is that there are **no CSS as you know them from web**. There are style properties instead, 
+The other one is that there are **no CSS styles as you know them from the web**. There are style properties instead, 
 which you can then compose and you use camelCase to write them.
 
 ```css{}
@@ -69,7 +69,7 @@ function React() (
 )
 ```
 
-But in the React Native: 
+But in React Native: 
 
 ```jsx{}
 const styles = StyleSheet.create({
@@ -94,13 +94,13 @@ If writing properties in camel case is too exotic for you, let's **try with [sty
 ```jsx{}
 import styled from 'styled-components';
 
-const Ready = styled.div` // or styled(View) in case of React Native
+const Ready = styled.div` // or styled(View) in the case of React Native
   background-color: '#123456';
   display: flex,
   justify-content: center,
 `;
 
-const Container = styled.div` // or styled(View) in case of React Native
+const Container = styled.div` // or styled(View) in the case of React Native
   padding: 0 10px,
 `;
 
@@ -113,11 +113,11 @@ function ReactOrReactNative() (
 
 #### SessionStorage? LocalStorage?
 Well, both are part of Web Api, so they are not available in React Native :( 
-but hey, you have access to something like AsyncStorage which in fact works similarly to LocalStorage but 
-has a set of additional convenience methods, and all of them return Promise.
+But hey, you have access to something like AsyncStorage, which in fact works similarly to LocalStorage but 
+has a set of additional convenience methods, and all of them return Promises.
 
 ```jsx{}
-  window.localStorage.settItem('id', id)
+  window.localStorage.setItem('id', id)
   ...
   const id = window.localStorage.getItem('id');
 ```
@@ -132,8 +132,7 @@ React Native:
 ```
 
 #### Routing?
-So the most common libs for navigation through an app, allow you to set up routing as you would do it on web. 
-Set of screens that you access via navigation to an established route. Yet there is at least one difference, 
+So the most common libs for navigation through an app allow you to set up routing as you would do it on the web, by determining a set of screens that you access via navigation to an established route. Yet there is at least one difference, 
 check if you can find it: 
 
 ```jsx
@@ -170,59 +169,57 @@ function ReactOrReactNative() (
   )  
 ```
 
-Have you spotted it? No links in the routes, string based on the name of component instead. 
+Have you spotted it? No links in the routes, a string based on the name of the component instead. 
 It's simply because urls are not how you navigate through native apps. You can, however, 
-use deep links to couple a url to the particular views. This functionality is used rather to navigate to the screen from outside the app, 
-not to redirect to other screen when you are already in the app though.
+use deep links to couple a url to the particular views. This functionality is generally used to navigate to a screen from outside the app, 
+rather than to redirect to other screens when you are already in the app.
 
-Also, although I used [`react-native-router-flux`](https://github.com/aksonov/react-native-router-flux) above I also recommend checking out [`react-navigation`](https://github.com/wix/react-native-navigation) which has some advantegous over the former.
+Also, although I used [`react-native-router-flux`](https://github.com/aksonov/react-native-router-flux) above, I also recommend checking out [`react-navigation`](https://github.com/wix/react-native-navigation), which has some advantages over the former.
 
 
 #### Deployment
 
-Deployment process for both mobile platforms consists of building the app from native modules, signing an application and releasing it to a store. But there are things that you will come across:
-   - to release an app you must provide a set of additional information like description, screenshots etc.
-   - your app must be align with the set of rules given by [Google](https://developer.android.com/distribute/best-practices/develop/understand-play-policies) and [Apple](https://developer.apple.com/app-store/review/guidelines/). You may notice that the latter one is heavily packed and it takes some time to scroll to the very bottom. Get use to it, that's part and parcel of working with Apple
-   - you must create provisioning profile to deploy an iOS app
-   - deployment might take a while especially in the case of iOS - they check your app manually
+The deployment process for both mobile platforms consists of building the app from native modules, signing an application and releasing it to a store. But there are other issues that you will come across:
+   - to release an app you must also provide additional information like a description, screenshots etc.
+   - your app must be aligned with the set of rules given by [Google](https://developer.android.com/distribute/best-practices/develop/understand-play-policies) and [Apple](https://developer.apple.com/app-store/review/guidelines/). You may notice that the latter is heavily packed and it takes some time to scroll to the very bottom. Get used to it, that's part and parcel of working with Apple
+   - you must create and distribute a provisioning profile to deploy an iOS app
+   - deployment might take a while, especially in the case of iOS - they check your app manually
    - you may resort to paid tools like Bitrise or App Center to alleviate some of the pain
    
 ### They are only renderers
 
-React is a tool to build UIs. Even though it might be use outside UIs, by design it's great for building user interfaces. Can React be used for game developement? Yes, it can, but then you don't get the most from it, neither from the performence nor from the speed of developement. React is a good choice when these two conditions are met: 
-- few changes within data stucture over time
+React is a tool to build UIs. Even though it might be used outside UIs, by design it's great for building user interfaces. Can React be used for game development? Yes, it can, but then you don't get the most out of it, neither in terms of performance nor speed of development. React is a good choice when these two conditions are met: 
+- few changes within data structure over time
 - whatever the data structure represents, there should be little irregularity
 
-That's exactly how most of the user interfaces behave. 
-So what's react's job and what is the difference when compare to React Native?
+That's exactly how most user interfaces behave. 
+So what's React's job and what is the difference when compared to React Native?
 
 **It's React in both web and mobile.** Only the renderer makes the difference.
-The renderer on web is React DOM and on iOS and Android it's React Native. [But React Native can also be used to render to DOM](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)
+The renderer on the web is React DOM and on iOS and Android it's React Native. [But React Native can also be used to render to the DOM](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)
 
 If you're interested in digging deeper I highly recommend [the reading](https://overreacted.io/react-as-a-ui-runtime/).
 ### Other differences
 
-- **Some components look different on each platform.** They simply do, for instance <Switch /> component is natively different on Android and iOS. They have native look, as some would say, but sometimes you don't need it to be like that. 
-- **Some API are only available on one platform.** 
-- Some native API are not available from React Native and you would have to bridge a feature from native to React Native. Although the community has been handling this issue for some time now and less and less APIs are unavailable
-- Prerequisites 
+- **Some components look different on each platform.** They simply do; for instance, the <Switch /> component is natively different on Android and iOS. They have a native look, as some would say, but sometimes you don't need it to be like that. 
+- **Some APIs are only available on one platform.** 
+- **Some native APIs are not available** from React Native and you would have to bridge a feature from native to React Native. Although the community has been handling this issue for some time now and fewer and fewer APIs are unavailable
+- **Prerequisites** 
 
-Unless you use Expo, you'll need a Mac. If you want to run you app on iOS device you will probably need an iPhone or, again Mac to run on simulator. You may want to try to experiment with iPhone as a service solution but I haven't checked that one. 
-Also, if you just want to play with React Native or develop only for Android - you don't need neither mac nor iphone.
+Unless you use [Expo](https://expo.io/), you'll need a Mac. If you want to run your app on an iOS device you will probably need an iPhone or, again, a Mac to run it on a simulator. You may want to try to experiment with iPhone as a service solution but I haven't checked that one. 
+Also, if you just want to play with React Native or develop only for Android - you don't need a Mac or an iPhone.
 
-- Community support
+- **Community support**
 
-There are number of libs that you can easily reuse in your React Native project that you've already used in your React one. 
-But the less coupled to view layer the lib the better. So for instance you can freely use date-fns or moment.js but you will waste your time if you try to use this Material UI lib https://material-ui.com/.
+There are a number of libs that you can easily reuse in your React Native project that you've already used in your React one. 
+But the less the lib is coupled to the view layer the better. So, for instance, you can freely use date-fns or moment.js but you’d be wasting your time if you tried to use this [Material UI](https://material-ui.com/) lib .
   - ✅ date-fns
   - ✅ Redux, Redux saga etc.
   - 🔴 Material UI 
 You'll find some material design implementation for React Native, sure, but the API will be different.
 
 ### So maybe React Native Web?
-Write your app in React Native and run it as mobile apps and as a web app. Check out [these examples](https://necolas.github.io/react-native-web/examples/), all of the components were written in React Native. And as you can see they work pretty well! The lib gets improvement and so it makes usage of the it a plausible choice for growing number of applications. 
+Write your app in React Native and run it as a mobile app and as a web app. Check out [these examples](https://necolas.github.io/react-native-web/examples/), all of the components were written in React Native. And as you can see they work pretty well! The lib is constantly being improved and so its usage is a plausible choice for a growing number of applications. For Expo fans there is also a growing initiative to make the [Expo SDK tri-platform](https://github.com/expo/web-examples) which means the power of react-native-web combined with the convienience of using Expo is right around the corner.
 
-### Sum up
-The ecosystem is definitely moving towards the grand unification of the two worlds: web and mobile. Yet there are still some differences that are hard too neglect and this blog post have underlined some of them.  
-
-
+### To sum up
+The ecosystem is definitely moving towards the grand unification of the two worlds: web and mobile. Yet there are still some differences that are hard to neglect and this blog post has underlined some of them.  
