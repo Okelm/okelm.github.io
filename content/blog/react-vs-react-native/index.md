@@ -4,11 +4,11 @@ date: "2019-06-27"
 description: "Comparison of these two realms"
 ---
 
-- [Moving back and forth between React <-> React Native projects](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth) 
-- [Differences in code](https://bwidlarz.com/react-vs-react-native/#differences-in-code)
-- [They are only renderers](https://bwidlarz.com/react-vs-react-native/#differences-in-code)
-- [Other differences](https://bwidlarz.com/react-vs-react-native/#other-differences)
-- [So maybe React Native Web?](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)
+- **[Moving back and forth between React <-> React Native projects](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
+- **[Differences in code](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
+- **[They are only renderers](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
+- **[Other differences](https://bwidlarz.com/react-vs-react-native/#other-differences)**
+- **[So maybe React Native Web?](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 
 ### Moving back and forth between React <-> React Native 
 
