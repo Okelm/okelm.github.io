@@ -1,5 +1,5 @@
 ---
-title: How to work remotely so that they love it
+title: How to work remotely so that everyone loves it
 date: "2019-05-20"
 description: "Remote work gains in popularity year by year. It's definitely a global trend that has been enabled by the Internet and allows one to provide one’s expertise to any part of the world."
 ---
