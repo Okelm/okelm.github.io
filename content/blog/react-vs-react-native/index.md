@@ -89,6 +89,7 @@ function React() (
   </View>    
 )
 ```
+You have access to flexbox, but you might be taken aback by the fact that the default `flexDirection` in React Native is `column` and `flex` takes only single number.
 If writing properties in camel case is too exotic for you, let's **try with [styled-components](https://www.styled-components.com/)**, which allows you to write them in your favourite way:
 
 ```jsx{}
@@ -174,7 +175,7 @@ It's simply because urls are not how you navigate through native apps. You can, 
 use deep links to couple a url to the particular views. This functionality is generally used to navigate to a screen from outside the app, 
 rather than to redirect to other screens when you are already in the app.
 
-Also, although I used [`react-native-router-flux`](https://github.com/aksonov/react-native-router-flux) above, I also recommend checking out [`react-navigation`](https://github.com/wix/react-native-navigation), which has some advantages over the former.
+Also, although I used [`react-native-router-flux`](https://github.com/aksonov/react-native-router-flux) above, I also recommend checking out [`react-navigation`](https://reactnavigation.org/), which has some advantages over the former.
 
 
 #### Deployment
