@@ -127,7 +127,7 @@ has a set of additional convenience methods, and all of them return Promises.
 React Native:
 
 ```jsx{}
-  import { AsyncStorage } from 'react-native';
+  import AsyncStorage from '@react-native-community/async-storage';
 
   await AsyncStorage.setItem('id', id);
   ...
