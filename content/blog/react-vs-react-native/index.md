@@ -30,7 +30,7 @@ The one difference that everybody notices at once is that **in place of divs you
 have [Views](https://facebook.github.io/react-native/docs/view)**.
 
 ```jsx{2}
-function React() (
+const React = () => (
   <div className={classes.container}>
     Web devs comfort zone
   </div>
@@ -38,9 +38,11 @@ function React() (
 ```
 
 ```jsx{2}
-function ReactNative() (
+const ReactNative = () => (
   <View style={styles.container}>
+    <Text>
      Web devs feel apprehensive
+    </Text>
   </View>
 )
 ```
@@ -62,7 +64,7 @@ which you can then compose and you use camelCase to write them.
 Then in js:
 
 ```jsx{}
-function React() (
+const React = () => (
   <div id='ready'>
     <div className='container'/>
   </div>    
@@ -83,7 +85,7 @@ const styles = StyleSheet.create({
   },
 });
 
-function React() (
+const React = () => (
   <View style={styles.ready}>
     <View style={styles.container}/>
   </View>    
@@ -105,7 +107,7 @@ const Container = styled.div` // or styled(View) in the case of React Native
   padding: 0 10px,
 `;
 
-function ReactOrReactNative() (
+const ReactOrReactNative = () => (
   <Ready>
     <Container/>
   </Ready>    
@@ -139,7 +141,7 @@ check if you can find it: 
 ```jsx
 import { Route, Switch } from 'react-router-dom';
 
-function ReactOrReactNative() (
+const ReactOrReactNative = () => (
   <Switch>
     <Route exact path="/" component={Main} />
     <Route exact path="/movies" component={MovieList} />
@@ -152,7 +154,7 @@ function ReactOrReactNative() (
 ```jsx
 import { Router, Scene } from "react-native-router-flux"
 
-function ReactOrReactNative() (
+const ReactOrReactNative = () => (
   <Router>
     <Scene key="quest" component={Login} initial />
     <Scene key="user" component={Main}>
