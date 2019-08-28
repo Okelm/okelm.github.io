@@ -1,5 +1,4 @@
 import { darken, lighten } from "polished"
-// import { fonts } from "./fonts/fonts"
 
 const brand = {
   primary: "#573EDE",
@@ -25,7 +24,6 @@ const colors = {
 
 const theme = {
   colors,
-  // fonts,
   brand,
   breakpoints: {
     xs: "400px",
