@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { Calendly } from "../components/calendly"
+import Signup from "../components/Signup"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -33,6 +34,7 @@ class BlogPostTemplate extends React.Component {
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         {isHelloPost && <Calendly />}
+        <Signup />
         <hr
           style={{
             marginBottom: rhythm(1),

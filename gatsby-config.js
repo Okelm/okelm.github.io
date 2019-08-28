@@ -54,7 +54,19 @@ module.exports = {
               target: "_blank",
               rel: "nofollow"
             }
-          }
+          },
+          {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+              endpoint: 'https://gmail.us3.list-manage.com/subscribe/post?u=86012a40b6e392982f77c3065&amp;id=249a849ae8',
+            },
+          },
+          {
+            resolve: `gatsby-plugin-emotion`,
+            options: {
+              // Accepts all options defined by `babel-plugin-emotion` plugin.
+            },
+          },
         ],
       },
     },
