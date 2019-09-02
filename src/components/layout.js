@@ -112,7 +112,7 @@ export const globalStyles = css`
     border-left: 5px solid #c9a7ff;
   }
 `
-//reset
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
