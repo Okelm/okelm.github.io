@@ -1,30 +1,33 @@
 ---
-title: Ramda
+title: Ramda vs Vanilla JS
 date: "2019-09-04"
-description: "A couple of practical use cases for functional programming with Ramda"
+description: "A couple of use cases for functional programming with Ramda and comparision to Vanilla JS implementation."
 ---
 
 - **[Introduction](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
 - **[Safely accessing deeply nested values](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
+- **[Data transformations](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
 - **[Conditionals](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
 - **[Merging objects](https://bwidlarz.com/react-vs-react-native/#other-differences)**
 - **[Ranges generation](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 - **[Handling side effects while staying functional](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 - **[Currying and partial application in one](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
+- **[Sump up](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 
-- propOr, map, cond, either equals, always, T, mergeDeepWith, concat, range, pipe, sum, tap, lt (lessThan), curry
+This is a list of functions linked to the the section with usage: 
+- [propOr](), [map](), [cond](), [either](), [equals](), [always](), [T](), [mergeDeepWith](), [concat](), [range](), [pipe](), [sum](), [tap](), [lt (lessThan)](), [curry]()
+
+Please reach out to [documentation](https://ramdajs.com/docs/#) to read up on detailed explantion of each function.
 
 ### Introduction
 
-My intention is to show some practicas usage of Ramda library in the context of data transformation in front end application, with some React examples.
+My intention is to show some usage of Ramda library, and to better express what is happening with this concise functional code of Ramda, there are equivalent-ish implementations in Vanilla JS.
 
-I don't want to explain show functions work, neither explain which approach is better than other.
-
-I won't be explaining in-depth how each of functional operator works, I will rather show them in the context and compare to vanilia JS implementation.
+I don't want to explain how functions work, neither judge which approach is better than other. I will rather show examples in context and compare to vanilia JS implementation if possible.
 
 ### Safely accessing deeply nested values
 
-It's always been tedious to reach the nested data in JS objects. Users have been waiting for optional chaining for long time now and happily we're getting there https://github.com/tc39/proposal-optional-chaining.
+It's always been tedious to reach the nested data in JS objects and everybody has been waiting for optional chaining for long time now and [happily we're getting there](https://github.com/tc39/proposal-optional-chaining).
 
 I've first seen it in Kotlin while working on native Android apps, and it seems that the syntax will be similar:
 
@@ -32,11 +35,24 @@ I've first seen it in Kotlin while working on native Android apps, and it seems 
 const includes = app?.data?.listOfItems?.includes("something")
 ```
 
-Until then (or until you (use this)[https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining]) you could either use one of the existing libraries or vanilia JS:
+Until then (or until you [use this](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining)) you could either use one of the existing libraries or vanilia JS:
 
-----
+```js
+const includesJS = obj => !!obj && 
+    !!obj.data &&
+    !!obj.data.listOfItems &&
+    obj.data.listOfItems.includes('something')
+```
 
-It's not always that great so you don't have to do any data transformations before rendering, because data from API fully match the frontend needs. Especially if you work with legacy code, or you have just been involved in rapid prototyping for a startup, your data scheme between how it looks on backend and what frontend needs will definitely vary.
+```js
+const includesRamda = obj => R.pathOr([], ['data', 'listOfItems'], obj).includes('something')
+
+```
+
+### Data transformation
+Let's complicate the above example. Not only do we have to access nested object but also map results. 
+
+It's not always that great so you don't have to do any data transformations before rendering, because fetched data fully match client's needs. Especially if you work with legacy code, or you have just been involved in rapid prototyping for a startup, your data scheme between how it looks on backend and what frontend needs will definitely vary.
 
 Imagine you have an object which has a list of items that you want to map to something else, defaulted to empty array if something is missing:
 
@@ -133,7 +149,7 @@ export const enhanceFavoritesRamda = R.pipe(
 )
 ```
 
-It differs very much from vanilia JS implementations. Where is even a fat arrow? Where is a parameter? Well, it's created by R.pipe behind the scene. The function takes implicitly whatever you provide it with and pass along to functional operators. It executes from left to right (or top-down in here), starting by accessing movies property and defaulting to empty array if needed, and then mapping to what we need.
+It differs very much from vanilia JS implementations. Where is even a fat arrow? Where is a parameter? Well, it's created by R.pipe behind the scene. The function takes implicitly whatever you provide it with and pass along to the first function. It executes from left to right (or top-down in here), starting by accessing movies property and defaulting to empty array if needed, and then mapping to what we need.
 
 One thing can be notice there at this point - Ramda allows to easily compose functions. 
 
@@ -367,7 +383,7 @@ const elementList = [
     { type: 'unknows', amount: 20 },
 ]
 ```
-#### Vanila JS
+#### Vanilla JS
 We don't have much flexibility regarding our JS implementation:
 - either supply argumnets one by one:
 ```js
@@ -396,3 +412,5 @@ const sum3 = sumUpTypeRequested(elementList)
 ```
 
 Obviously, the number of possibilities grows with the number of arguments
+
+### Sum up
