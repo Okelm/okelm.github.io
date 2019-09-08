@@ -25,6 +25,18 @@ My intention is to show some usage of Ramda library, and to better express what 
 
 I don't want to explain how functions work, neither judge which approach is better than other. I will rather show examples in context and compare to vanilia JS implementation if possible.
 
+### Codesandbox
+
+To support better reading experience you get access to the whole code from the article which you can change, fork and test - there are unit tests for each and every case:
+
+<iframe 
+  src="https://codesandbox.io/embed/github/Okelm/ramda-vs-vanilla-js/tree/master/?fontsize=14&hidenavigation=1&module=%2Fsrc%2Faccessing-nested-values.js&previewwindow=tests" 
+  title="ramda-vs-js" 
+  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" 
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" 
+  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+</iframe>
+
 ### Safely accessing deeply nested values
 
 It's always been tedious to reach the nested data in JS objects and everybody has been waiting for optional chaining for long time now and [happily we're getting there](https://github.com/tc39/proposal-optional-chaining).
@@ -283,7 +295,7 @@ What is a caveat for one case, it's an advantage for another. Ramda implemenatio
 
 ### Ranges generation
 
-You need a list of numbers going from `a` to `b`. Like range(30, 32) yields [30, 31, 32]. Unless you implement your own solution for JS you don't have a utility. While there are number of ways to implement it in vanilia js https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp one can choose to use a `range` from Ramda:
+You need a list of numbers going from `a` to `b`. Like range(30, 32) yields [30, 31, 32]. Unless you implement your own solution for JS you don't have a utility. While there are number of ways to implement it [in vanilla js](https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp), one can choose to use a `range` from Ramda:
 
 ```js
 R.range(30, 32)
@@ -355,6 +367,7 @@ const sum1 = sumUpElements("ceramic")
 ```
 
 Let's take a real life example:
+
 The function itself in Ramda:
 
 ```js
