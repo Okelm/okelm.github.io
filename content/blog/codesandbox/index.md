@@ -1,5 +1,5 @@
 ---
-title: How to use embedded Codesandboxs
+title: How to use embedded Codesandboxes
 date: "2019-09-14"
 description: "A concise guide to consuming an emdebbed codesandboxes."
 ---
