@@ -23,6 +23,11 @@ Please reach out to [documentation](https://ramdajs.com/docs/#) to read up on de
 
 My intention is to show some usage of Ramda library, and to better express what is happening with this concise functional code of Ramda, there are equivalent-ish implementations in Vanilla JS.
 
+I'm not opting for using Ramda everywhere, just to be clear. I don't like how people are trying to be consistent and use one lib wherever they can. Instead, I prefer to produce a readable code consistently, with all the means necessary.
+
+https://twitter.com/dabit3/status/1156932035501547520?s=20
+
+
 I don't want to explain how functions work, neither judge which approach is better than other. I will rather show examples in context and compare to vanilia JS implementation if possible.
 
 ### Codesandbox
@@ -424,6 +429,8 @@ const sumUpTypeRequested = sumUpRamda(R.__, 'requested')
 const sum3 = sumUpTypeRequested(elementList)
 ```
 
-Obviously, the number of possibilities grows with the number of arguments
+Obviously, the number of possibilities grows with the number of arguments.
 
 ### Sum up
+
+Even though, the goal of this post isn't to judge, Ramda enables all sorts of functional patterns and comes with a set of handy functions. It doesn't come without a price: a brand new syntax.
