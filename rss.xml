@@ -1,4 +1,233 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Aug 2019 07:37:41 GMT</lastBuildDate><item><title><![CDATA[From React Web to React Native]]></title><description><![CDATA[Moving back and forth between React <-> React Native projects Differences in code They are only renderers Other differences So maybe React…]]></description><link>https://bwidlarz.com//react-vs-react-native/</link><guid isPermaLink="false">https://bwidlarz.com//react-vs-react-native/</guid><pubDate>Thu, 27 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 15 Sep 2019 18:55:02 GMT</lastBuildDate><item><title><![CDATA[How to use embedded Codesandboxes]]></title><description><![CDATA[Codesandbox Explorer Changing the view Open in Editor Codesandbox This is a code sandbox: Codesandbox is an online code editor, more info…]]></description><link>https://bwidlarz.com//codesandbox/</link><guid isPermaLink="false">https://bwidlarz.com//codesandbox/</guid><pubDate>Sat, 14 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://bwidlarz.com/codesandbox/#codesandbox&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Codesandbox&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://bwidlarz.com/codesandbox/#explorer&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Explorer&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://bwidlarz.com/codesandbox/#changing-the-view&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Changing the view&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://bwidlarz.com/codesandbox/#open-in-editor&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Open in Editor&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;codesandbox&quot;&gt;&lt;a href=&quot;#codesandbox&quot; aria-label=&quot;codesandbox permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Codesandbox&lt;/h3&gt;
+&lt;p&gt;This is a code sandbox:&lt;/p&gt;
+&lt;iframe 
+    src=&quot;https://codesandbox.io/embed/github/Okelm/ramda-vs-vanilla-js/tree/master/?autoresize=1&amp;fontsize=14&amp;module=%2Fsrc%2Fmapping.js&amp;moduleview=1&amp;previewwindow=tests&amp;view=editor&quot; 
+    title=&quot;ramda-vs-js&quot; 
+    allow=&quot;geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb&quot; 
+    style=&quot;width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;&quot; 
+    sandbox=&quot;allow-modals allow-forms allow-popups allow-scripts allow-same-origin&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Codesandbox is an online code editor, more info can be found here in its &lt;a href=&quot;https://codesandbox.io/docs/#what-is-codesandbox&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;explorer&quot;&gt;&lt;a href=&quot;#explorer&quot; aria-label=&quot;explorer permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Explorer&lt;/h3&gt;
+&lt;p&gt;Click the hamburger menu to see the folder structure:
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 470px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.659574468085104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAB30lEQVQoz2NggIIbC+Psbi9NLrq7Ir3kxoIYF5j4neUZjCDaxdmBgShwdl6q6M3FiTvvL0/+/3xNGhg/XJn2/9aSlKOXF2fKgdRs641mAtH2dnZszs7OLS4uLvOBeCYQz0LCM52cHJUYHiyJ3vV1c/L/B4sj/zxcEvX74eKI3w+WRP35vDHx/4MlMaePLC5hgVluZ2fHBTTwDFDzVxcX5zdA/A6I34JooPgbJ0dHU4ZNbRH31jQE/1/bEPRnRU3APxBe2xD4d1Vd0P+NrRFP762vEoIZaG9vz+Hk5DQPqHkfEO8A4p3ItKOjoybD1jaj8+sbDP6vbzT4vbnF8O+2NsO/y6v1/iwo1f2/rd3oxv8PkdwwA21tbTmBGjcBXXgV6KpzQHweyAbhC0Dxc0AD9RgWlDs+nVdq/39qrs3/7R3O/3f3uPzvz7D+Pznb9v+yGqdX3w7GScFdCPQy0IUg19wF4mtAfB2Kb4D4QAMNGC7NTTp4cVbMt0uzY16fnRb19szUqLdX5sS8uTw79svFOYmnzy5t5kaEoS07UONkoIs2APEqIF4NxWuArl0FNFCN4c8aLdY3qwP4X60K5v23K5L3/94o3qfLgnmfLg3g+7XBgg1k0ON13Qw6BjpEpRoAPYHurtsr++wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;hamburger&quot;
+        title=&quot;&quot;
+        src=&quot;/static/45a75d1ca51c7f82ea302dcfac932ada/6ebdb/hamburger.png&quot;
+        srcset=&quot;/static/45a75d1ca51c7f82ea302dcfac932ada/cbe86/hamburger.png 148w,
+/static/45a75d1ca51c7f82ea302dcfac932ada/eda7d/hamburger.png 295w,
+/static/45a75d1ca51c7f82ea302dcfac932ada/6ebdb/hamburger.png 470w&quot;
+        sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
+      /&gt;
+  &lt;/span&gt;
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 21.228710462287104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABJElEQVQY012NO0tCAQBG7yxBvr1mokKUqEgUJUlt1tRQm2F4u+ITJIIgKJcg15YeNLcEDUFDBT22QCIxUSmj/1BDmBW360ldgg6c7eN8wutbk/tilVqtTKFwS73+TIdWq9X1P2qzwctDkdJdgcdKlVK5SqX2RONTobMWvr5V3j/g/LpCLL1BIpUknsqQSGeIJ9MsSktEohIRSWYhHCa7f8jaTZnIep7c7h753DLbW6scHWwix2IIqvrTfT45vWDA7WfI48Xt8+P1D+Npa7U7sNjsiHYnJqMJXzTL1M4xzul5QrLM3Mw44dkgK1IIh8uFoChKN3h1ecbYiMhoYIJAcJJBjw+xHbJYbX/29WPU6dBrNJgNRvRaPVqDSK/BQo/OjFns4xcs9MWkpKPJ3wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;click&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1488049652d96acca29402b29663dc39/5186d/click.png&quot;
+        srcset=&quot;/static/1488049652d96acca29402b29663dc39/cbe86/click.png 148w,
+/static/1488049652d96acca29402b29663dc39/eda7d/click.png 295w,
+/static/1488049652d96acca29402b29663dc39/5186d/click.png 590w,
+/static/1488049652d96acca29402b29663dc39/5746e/click.png 885w,
+/static/1488049652d96acca29402b29663dc39/b8acd/click.png 1180w,
+/static/1488049652d96acca29402b29663dc39/24db6/click.png 1644w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This should look familiar:
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 250px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 200%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAoCAYAAAD+MdrbAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEoklEQVRIx5VWSW/bVhD2vS2cWJbEfZNEcRNFkdosW94SO17iGhZSFEGLxkDTQ4EkQIIeCvTWoqf+6K8zT6KthZHtw+A9vkd9mpnvmxlu6HYNZVlFqSpjW1KE8XO+SpoBWTfv1mXj8/yuomjYqKo6onYHw70xdsYHYm11UmT9IdpZbwEs/3GR8X1ZVrDBD2E7QXewI0AGu3uIko54TnuDtd7NezkFVKeA8yFvVe5DZ1vn1YqH0szDPH4GXpenh0OeedgbjnB6fonx4fGjQlwbMm8Mp0557FDu0icDFnrITHO+OI+8fwroCiBvnCCG2fARxAn8VozqEtg68EIP9ZoLxXSgGtPwmaDcipL/oIdVRYXjR/DSPu011FwPXtiC64dQTfvppAjAqItgdEoAFtwgotDbInyr7iLP87IVykbWDVRUE/W6gjQuQ9ItKHSpGJYwzXKEl1zzy8Z3+f0doGIY2CxbmJxJ+PfTJsx6hE6vRzZAp9sX5cj7OO0io3LkM5YXl2VC+2T2PEcK58FYaADzpBQR8zWSFjy8PpXw94dNaLaPdpohoU7TJq94bRJBD0lngRTOodvU0W5RLRu2kI4wylOt6Yk88cvLnlcUfeGPph5SuFuSib2BgttJCbrjoUU58aJYeOYGIUISPIuez7hEed8kJTRIVkxOXl2zkE2UGHCo4serKlTLFT/kl2tNX4DynjXJIPd/FAmtMuDUS2sK2Hj5FmbnAMn+GIdnPbjDV4jG5wj3ztHav4BH2vRHr2B3j2CmB3dmpYewskNx7vSOUeu/hBGPsBFOPkLrXuHt7QH++StGfPozJu8/Y/LbF1zdfsLrdx9x+csHBEcTNMbfw92/XrTxtThvHtzA7p9gg//J8BMYQQYzzKD7KVQvgeZ3xMrnBp8Hqbg3aJ1aNmd814XSiIhlVcF3JR1vzrbx35dviFEPvcEAWY9FPSCCOiSdLs0YGlo0vGJ6bhJRXK6Sqk1Nma7lqsSyscDiNmwDdp1qloVOJcflpJrOXXmZtQYR5gg58fOKHuk3lVzYz6sWTvZlfH73nITt0VhNxChlNplZrum8GeTr8qxZaA7bsoluquLimGRj1oX2uNs41MbqXiBezrVW1HRXAMuKiTDUcLQrk+sOtawG7EZT6I9DZbvX2wMNVtRyxcLlCwl/vn9GlRIIMrirtDqZ+HrgTuNFrRUvvzICTKjcbaietyRLNNj8JQaY7zbLAIWAz1QLbwIJR3UJtSjBcLQr5nQ664FMyLphtQJYJdlYSgWGUhWdhi/Yy3lW143WVcDyFtzJH6id/Yo48pH0hkgph4PRnug6/GXGDaEof8VTT5Gw3b5EOTyGaRnEqCtYZZZ55SHFYn7M9+E0hxUbNy82cTIqQTJofEaRALMILP+IelLI35Ys/P5TGZMLCYoVUd1msxHaFiU2Py6LQFdlQ5JRqzY0kgzvZc28Y1aMUVHT9uM93FQN/OA2cEPWICH3eVRSp9kZ7wtSMuoy3PIfDSjRRqNWpGm6+EhaHptP1qEkUe52LyBTg/T9QAxuzh8P74DWZUIezKFM3qntHcgusVuriw4zL5uirrIO8H8qbV9te39kJAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;structure&quot;
+        title=&quot;&quot;
+        src=&quot;/static/619231f67fd4f8a62cc9ee8c8b8798d4/5c0c2/structure.png&quot;
+        srcset=&quot;/static/619231f67fd4f8a62cc9ee8c8b8798d4/cbe86/structure.png 148w,
+/static/619231f67fd4f8a62cc9ee8c8b8798d4/eda7d/structure.png 295w,
+/static/619231f67fd4f8a62cc9ee8c8b8798d4/5c0c2/structure.png 500w&quot;
+        sizes=&quot;(max-width: 250px) 100vw, 250px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;changing-the-view&quot;&gt;&lt;a href=&quot;#changing-the-view&quot; aria-label=&quot;changing the view permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Changing the view&lt;/h3&gt;
+&lt;p&gt;This tool is amazing, yet IMO this is the confusing part of codesandbox UI. It wasn’t obvious to me what it does until I clicked it:&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 18.460111317254174%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+ElEQVQY042KP0sCcQCG76tUlGUtIUodhARBgUOODS0NEdgatATd2Z/zFK66wKFA0hZrLaIlrLYgbGiPhqghcCjv98eGp59+Ah94eIb3tfYLPnteAc8vmvo4O7tsOw75UsDx/TNe9YKDs3MqJyHV0yMua2Vc83HdPMX6HeHtK4fXTcKbF4KrJtZkMkUiNYU9kyY5bTMcn2BgcIgxO02m/kBibZPZ1XVWlhbILc+zlcsSi48zOhLD3qiwWH4iEzTIho/MlRpYQkqkUQjRq9Ya3emglUL+/vCnIlotwde3MpuiLVTvo7rKiChqI4zdSqNFH7x9wPsnffEPZV78JYdr6CIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;menuArrow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/65dbb0ad18ba4e06fe84be43dccdb2ea/5186d/menuArrow.png&quot;
+        srcset=&quot;/static/65dbb0ad18ba4e06fe84be43dccdb2ea/cbe86/menuArrow.png 148w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/eda7d/menuArrow.png 295w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/5186d/menuArrow.png 590w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/5746e/menuArrow.png 885w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/b8acd/menuArrow.png 1180w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/95577/menuArrow.png 1770w,
+/static/65dbb0ad18ba4e06fe84be43dccdb2ea/9dd26/menuArrow.png 2156w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 269px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 82.5278810408922%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACuUlEQVQ4y4WS3UvTURjHf39BEJVIJPi6jSyCLCPNCLGIiAqhK1PTvIhITCIvuiu01L1qXYRhkb1BN3URhheFwpRslaWRQjFdvsy9ZdNtTd1vn87PObap6QNfnsP3POd7vud5jsQaEQ5vnKNYGdJGYh4vuGdg1gdTrrVrNhSMFi4swugkzPnB7oZpAc+f9UWl9dzZpsAXgOA8TDoi3A8byPLqy1cJrhTzzsEve2StOByfjqyV5085/+9SWuupSvwch8XFyFpxOemM7VknIBBce0BS/A3ycraL5rtmYgKKYNShEorY6ETimQTBBFE54iCeU3ro8MT2lVAcK62IF41zGBaQWViQeWOWRaFyKrxcGBbDkXk/uMzJsfrXPbKYusLLgo+oSuEVY7LZY2t52c6scDJmj3Kxeqdoy0Io/peEkRZF5+fn5xkeHqH/Qz8jw4NYLBaczsgUxmw2Pn+y8P3bAFbr6BLncDgwm3v5+sXC0NBX+vr6xJ6VUCgU62EwGMTlduPzB/B6vQmuXW4PAcHHRyDgx+Px4Pf5cLmcyKGIVUlnNKEzGDAJtJpMmIxGWgQMBiNavQF9UxMtej3NOiP1TXpuN+sxmFrQGlrRm+6gNbaiE1mnZHFG2pKUTFK6iszSarLO15JVVoOqqo7tOXkkpaSy71Y7udoOGuov8cpYwYmiXDZvS6a65AhXygqX8rWKIgoO7GLT1mQklVpD9uEijj5+y7FnPSK/4/jLj+Scu0h2bh4V4k9e+C3+pq0T/j5He72cDPVOzI9q6e2opfthDQMv6rhadYqUDA1SRpYa9f6D5Nff41BjO/kNbRTon7D75FnUe/ZypmuY4m4rXZ138ZobuVx5mtQsDW03SnlQX879m6U8ba6kpLiQHeKlUlqmilSBNCGcgHhepSFdIEMgup+uYIlXLyHK/wPmPoALiig03AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;explain&quot;
+        title=&quot;&quot;
+        src=&quot;/static/122644dba7b0ddb7fe77669b94a76010/6a465/explain.png&quot;
+        srcset=&quot;/static/122644dba7b0ddb7fe77669b94a76010/cbe86/explain.png 148w,
+/static/122644dba7b0ddb7fe77669b94a76010/eda7d/explain.png 295w,
+/static/122644dba7b0ddb7fe77669b94a76010/6a465/explain.png 538w&quot;
+        sizes=&quot;(max-width: 269px) 100vw, 269px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt; is what you have seen already. You edit code there,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preview&lt;/strong&gt; depends on the sandbox setting and can be a browser with rendered output or tests results. In this case we edit functions with unit tests, so clicking &lt;strong&gt;Preview&lt;/strong&gt; runs tests and show results,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor/Preview&lt;/strong&gt; the screen splits to show both options.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Go to the &lt;a href=&quot;http://bwidlarz.com/link&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;sandbox&lt;/a&gt; and play with the view options:
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 71.0124826629681%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAADBklEQVQ4y01TyY7dRBT1ByAWPeY922W75sHTs9+Q1+nukAYEYkgHhSGiFxCBFIFgEUUZtqAkyposwwqxYIH4EZZI/M7hlluRWFyVXOU695xzTyV3v72HL768wFd3v5nq9ud3cH77M9w8P8fFk59w8ewXPPz1d7x6+TNePr2Px/fv4f2bn0znXz//DY/++heP/vgbD/78Bz++eIVkezTCty1UaJBXAnuHM+weXsHO7j5mYUC6PIG/8R7ePtvi7HhA33oczHJkaQ5++hHqT39Afet76I+/w/bDO0jGzYjQjxjGEzDlUZQcRS7BuACrchzsH2B/dw85E+DaIRUcSnIEo5CrHczZmygKIrHzBrbXriIxoUVaVBDcoeIGQjoIuqhcgKAqhIIMPbgUl0VApZbgzkCHGpbUub6FbgKOrp8i8U1HbBS872CaDVw9wA1r+MUK67N3sHr3AwjbEDNGq4PxDbSvUXcDunEFaTwqZVAKje1xBGw7ZCTTBQ9/9QyqW6LZ9NS1QTOMcJu3YLoFUk6eaQNl/VS+7dEuRgIPkPQ9ZyWG1QaJay4lS2OhDHUiNpWrobyG9BaFNNSQzpUkdgGW/o93+uUaw5oUkUJbtyilwnp7LQJ2k0+loIsFR15KZJWmUgQUByMmBZb8DM0CoV3Ahg59N2IRJVPTSmkUXOP4+g0kNcmJgE4vUNdLeIqKIf8sMeDkT7NYQuoArhTta5hegZkcwZcUtQzVcAjR5ajoe3OyRRIIMDJgXELrZuomnJrq9X5GLGdphjzPkJYFmKhwpcgxY1Q5I7nxnxJHpzSUuh+mzHFpYX0PQayiDFlbYmimsEePZxkDI0sY2RCzmtEQokVzFhtcrpOHUXIEjB5eMjQEaGgYcgJ7DRhXQ+YrRY0pIpqGGP0XViM3GTFOMW7+J7mKgDTh+Bq4pXgQw1Lq6SwCTuF3GsxKCrpFHl8Snc8ZyZ8z7BzMpqknDUkuhJwAjW6nTMULETCyTCdZJQ6zAs5ZrILBXjpDToNc0+Tjm06paVSwOTrBfzgMqgt6e+q7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;changed&quot;
+        title=&quot;&quot;
+        src=&quot;/static/200b76e6494b8f44f028071e26acec64/5186d/changed.png&quot;
+        srcset=&quot;/static/200b76e6494b8f44f028071e26acec64/cbe86/changed.png 148w,
+/static/200b76e6494b8f44f028071e26acec64/eda7d/changed.png 295w,
+/static/200b76e6494b8f44f028071e26acec64/5186d/changed.png 590w,
+/static/200b76e6494b8f44f028071e26acec64/5746e/changed.png 885w,
+/static/200b76e6494b8f44f028071e26acec64/b8acd/changed.png 1180w,
+/static/200b76e6494b8f44f028071e26acec64/cee41/changed.png 1442w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+Once you change something in the code, the code is rerun after each keystroke.
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.3961084086171%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAC2klEQVQ4y3VUy24TMRSdT0CimTaTeXpsz9jzzLtpkknSik1Rq0qgskE8lpWKWCKxQyyQkFggNoifYYv4qcO1Q0EsWBzZ8uPcc+69trPcnOF41WG93RFOMZzOUY8mKMsKq5e3WNy8wfOPn/Hh3Wu8vXmEZ9fnyMohyqrC9tUnPPn2E9dfvuPx1x94ePseznRaYjw/Rj2ZIeYSh54P1xvAPfLgyQKeqiHGc4xmDWaTGm3bIBE5Ml1gdHqBxdULLC6f7scHF3CEVpBFQxHnCIVClDBEoUCYpIjSCIeHffRcgu8h5AJMKgilUTRDNE2DgefBdV30egeomxZOyDiRcIi0RMpyCFFA5CWyooLUJamRiPMKAU+ISNk1g6odoRlPUQ0nNM7AMkXzMRxjM0oFtK6RtyfQ9RiaDig6qBpaqxrIagyfxeB5DqmIUBX28nC6T9MgSnDkh6gNoVEQkD1VaOj5FrKdoaR86ZZU1kPISYeMrPgsREqEgsiEJRyhJYXtZGoVH1DOzZpj1BlCJiUYJ/tZgVhqusyRqgwhE6QgRkD5FFpTMUrk1AEtFaomF+auHzOr0ASwChlVjXFTEMoXIxKhKWcKAZGZgGEirCpVNhY80xCltDDqzJ4hni6WcJjM7aVM1FC6RaZaiGZE1oeksqCc0kgBYsnAS06gADJCVHgWTKdUNFIY99FMyHJKhLbSpCbPGpgAXEuLgKyYPT9O4SUBQuXBl0SkBgQfYeYjyD3E5QB+fkdI5Y5Sbi3nmuyQKq6JtMiRZNIGGoQJvChEIAL4PLBjIP0/8zAP0Gd9emHjO0KBJM0gZUV9l/0uxl6ZyY2BF8To+/9DArcf2CdrG7sfRAhCvicky3FmcmXaiaHXN0/Rx316Mf/g6O/ctMy9A5eqX8Ppdmc46TZYrrdYd2dYbrZY7TZYnW6xWHc4Xq4xO1naCnbdDuf0gbT0gSy7rf1UzGcypzNmfn55hV+X+aQ6cTsCOQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;split&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b9fa73b48b259e0b7034bb627d2e5037/5186d/split.png&quot;
+        srcset=&quot;/static/b9fa73b48b259e0b7034bb627d2e5037/cbe86/split.png 148w,
+/static/b9fa73b48b259e0b7034bb627d2e5037/eda7d/split.png 295w,
+/static/b9fa73b48b259e0b7034bb627d2e5037/5186d/split.png 590w,
+/static/b9fa73b48b259e0b7034bb627d2e5037/5746e/split.png 885w,
+/static/b9fa73b48b259e0b7034bb627d2e5037/b8acd/split.png 1180w,
+/static/b9fa73b48b259e0b7034bb627d2e5037/09e50/split.png 1439w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;open-in-editor&quot;&gt;&lt;a href=&quot;#open-in-editor&quot; aria-label=&quot;open in editor permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Open in Editor&lt;/h3&gt;
+&lt;p&gt;Clicking this:
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 211px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 27.488151658767773%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABK0lEQVQY013NSUtCYRTGcT9AYlxNMyxRr16H670FbYNoAFMjcN2gBi7CqWHppk0QtApaia36ACmaRBZFExTR8Hmqf68mGh34cd73cHiOweYYw2q341A0Jgpl9OIxk1sVwoUKwVwFJSt6vkJIULsCYh7IlhnfOSG8XGLQbKFWb9AugxLSkL0y+nSc+TqsXMLBBySvYPcFSs+w+QD5e9h+hL1X2H+H4h3ELmDm6A237KVx1vwNlAMqbo8HdSpCpPZFovlN7pZezwtr4shqSxwTMtewcQOp1icL5zB7+ITT5eoHun1+XF4fclBDjycJL64TiKVR42n80TSK0P4Hu3qzaAp9KYM2l2Bk1NkPHLLZ6bAOI5mMmE0DgrHH8uf9nyR2LWYJo0nitFrtBP4AvL7fc0lgEG4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;openEditor&quot;
+        title=&quot;&quot;
+        src=&quot;/static/938e769e40bdc3efbe69d096c4791a74/d2158/openEditor.png&quot;
+        srcset=&quot;/static/938e769e40bdc3efbe69d096c4791a74/cbe86/openEditor.png 148w,
+/static/938e769e40bdc3efbe69d096c4791a74/eda7d/openEditor.png 295w,
+/static/938e769e40bdc3efbe69d096c4791a74/d2158/openEditor.png 422w&quot;
+        sizes=&quot;(max-width: 211px) 100vw, 211px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Moves you straight to the web app which brings you full set of options:
+&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACO0lEQVQoz31S2W7TQBT1J6DSqvE6nvF4iZ3NDk5oUCnLC6Isz0hIAbokQYjfgsILtA+o34HEP0DI0scUwuHOpOoLFZaOZuzxPfecM9fIGi3wMIaIErAgpH2k9zbjsFwfpsv0d19GcPwAFYfh+qaFaxubWDPVWsG6R+f3nsGstmFkzRwyrsITASzPh8V8BGEKKSIEXILLkIiEJlbYffIUe4cDvHi1j8Pha+wdDPC8/xKD4RCjN29h+DKGH1WpiMOj1SYSxkOkSR1xtUaKQ2omdcOK4+Hd+yPM53N8//ETVz2GsuKTZYssOjKBo4p5gDBO4ZFVk1SbdKYi2DBtfDo+1oW/fv/Bcrn8B0YYxyjyGgKyLeOEslopCqlRQuqDIEJKDaOkBpsy/XxysiI8P7+akJGVvFUjAg7OHPhCaGWKSBI4qZX0LiiOTcvFl9NT/O8xbBEifryP+m4f8YM+vHqXMuQQaY4gy1e3S6QuXYyyfPThIxaLBcbjMabTKc7O5pjNZphMJhqGQ9mIaglZ3IZX7MAOMyjVikhQM59UKnCKQf2bNttod7dRlLeQlz30tu+j7O0ga5ZoFjdhWDR3a48ewm41wRybRsMFIzJGo8MoQ+fiQlbwEWUFstYWEXeRNrqo1juo5VtIajc0DKtdYv3bV4jRCHUidykvRmp4mEAQ1I0rMjWLag3iui6Ms/YlGkVPI22UKkMJ685dWGkGy3F1EdOjlGrb7CI/m60IZdIgwpLQvlSVNjpkuaP3fwHjXaNWVCXaWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;editor&quot;
+        title=&quot;&quot;
+        src=&quot;/static/33442fa4279f1e009bb560bac64f7980/5186d/editor.png&quot;
+        srcset=&quot;/static/33442fa4279f1e009bb560bac64f7980/cbe86/editor.png 148w,
+/static/33442fa4279f1e009bb560bac64f7980/eda7d/editor.png 295w,
+/static/33442fa4279f1e009bb560bac64f7980/5186d/editor.png 590w,
+/static/33442fa4279f1e009bb560bac64f7980/5746e/editor.png 885w,
+/static/33442fa4279f1e009bb560bac64f7980/b8acd/editor.png 1180w,
+/static/33442fa4279f1e009bb560bac64f7980/95577/editor.png 1770w,
+/static/33442fa4279f1e009bb560bac64f7980/7c7bb/editor.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+Most of them are available from the embedded version too though.&lt;/p&gt;
+&lt;p&gt;Now when you know the basics you can go and utilize embedded sandboxes in every blog post and documentation!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[From React Web to React Native]]></title><description><![CDATA[Moving back and forth between React <-> React Native projects Differences in code They are only renderers Other differences So maybe React…]]></description><link>https://bwidlarz.com//react-vs-react-native/</link><guid isPermaLink="false">https://bwidlarz.com//react-vs-react-native/</guid><pubDate>Thu, 27 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Moving back and forth between React &amp;#x3C;-&gt; React Native projects&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://bwidlarz.com/react-vs-react-native/#differences-in-code&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Differences in code&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://bwidlarz.com/react-vs-react-native/#differences-in-code&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;They are only renderers&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -182,14 +411,7 @@ You’ll find some material design implementation for React Native, sure, but th
 &lt;p&gt;I will try to address all the issues.&lt;/p&gt;
 &lt;h3 id=&quot;adjust-your-working-time-to-the-office-hours&quot;&gt;&lt;a href=&quot;#adjust-your-working-time-to-the-office-hours&quot; aria-label=&quot;adjust your working time to the office hours permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Adjust your working time to the office hours&lt;/h3&gt;
 &lt;p&gt;If the time difference is 6h, as in the case of Poland and New York, USA, it is advised to work afternoons (sometimes it’s a condition). You want to be able to work at least 3–4 hours within the other time zone. I recommend using &lt;a href=&quot;https://www.worldtimebuddy.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;this tool&lt;/a&gt; to visualize the difference.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/01900/timeZones.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -202,31 +424,23 @@ You’ll find some material design implementation for React Native, sure, but th
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;timeZones&quot;
         title=&quot;&quot;
-        src=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/b9e4f/timeZones.png&quot;
-        srcset=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/cf440/timeZones.png 148w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/d2d38/timeZones.png 295w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/b9e4f/timeZones.png 590w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/f9b6a/timeZones.png 885w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/2d849/timeZones.png 1180w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/bbefa/timeZones.png 1770w,
-/static/8c0893977e4e62a0e00e3a555b0d88eb/01900/timeZones.png 1986w&quot;
+        src=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/5186d/timeZones.png&quot;
+        srcset=&quot;/static/8c0893977e4e62a0e00e3a555b0d88eb/cbe86/timeZones.png 148w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/eda7d/timeZones.png 295w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/5186d/timeZones.png 590w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/5746e/timeZones.png 885w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/b8acd/timeZones.png 1180w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/95577/timeZones.png 1770w,
+/static/8c0893977e4e62a0e00e3a555b0d88eb/f96f6/timeZones.png 1986w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This time is usually used for meetings, demos, code reviews, pair programming, but if you’re in the minority it might happen that the meetings take place in the evening and then you might end up having meetings at around 9pm or so.&lt;/p&gt;
 &lt;h3 id=&quot;try-to-have-pair-programming-sessions-as-if-you-were-in-the-office&quot;&gt;&lt;a href=&quot;#try-to-have-pair-programming-sessions-as-if-you-were-in-the-office&quot; aria-label=&quot;try to have pair programming sessions as if you were in the office permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Try to have pair programming sessions as if you were in the office&lt;/h3&gt;
 &lt;p&gt;There are dozens of benefits of programming in pairs (or more)&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/50bbc/pairProgramming.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 378px;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -237,15 +451,14 @@ You’ll find some material design implementation for React Native, sure, but th
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;pairProgramming&quot;
         title=&quot;&quot;
-        src=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/b9e4f/pairProgramming.png&quot;
-        srcset=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/cf440/pairProgramming.png 148w,
-/static/92114ea205feb6d6e574d4defdaaef9e/d2d38/pairProgramming.png 295w,
-/static/92114ea205feb6d6e574d4defdaaef9e/b9e4f/pairProgramming.png 590w,
-/static/92114ea205feb6d6e574d4defdaaef9e/50bbc/pairProgramming.png 756w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/5186d/pairProgramming.png&quot;
+        srcset=&quot;/static/92114ea205feb6d6e574d4defdaaef9e/cbe86/pairProgramming.png 148w,
+/static/92114ea205feb6d6e574d4defdaaef9e/eda7d/pairProgramming.png 295w,
+/static/92114ea205feb6d6e574d4defdaaef9e/5186d/pairProgramming.png 590w,
+/static/92114ea205feb6d6e574d4defdaaef9e/292c9/pairProgramming.png 756w&quot;
+        sizes=&quot;(max-width: 378px) 100vw, 378px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Plan pair programming sessions ahead of time. It might not be aligned with the engineering culture in some companies though, so don’t panic if somebody looks at you as if you were a weirdo. Be the first one to mention screen sharing and show that you’re open to suggestions. &lt;/p&gt;
 &lt;p&gt;You definitely need the right tooling to run an effective session. If you’re using &lt;a href=&quot;https://code.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;VS code&lt;/a&gt; you’ll need the &lt;a href=&quot;https://visualstudio.microsoft.com/services/live-share&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Live Sharing&lt;/a&gt; plugin. It will simulate one keyboard shared between two or more software developers.&lt;/p&gt;
 &lt;h3 id=&quot;set-a-high-standard-of-communication-even-if-nobody-expects-it&quot;&gt;&lt;a href=&quot;#set-a-high-standard-of-communication-even-if-nobody-expects-it&quot; aria-label=&quot;set a high standard of communication even if nobody expects it permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Set a high standard of communication even if nobody expects it&lt;/h3&gt;
@@ -255,14 +468,7 @@ You’ll find some material design implementation for React Native, sure, but th
 &lt;/ol&gt;
 &lt;p&gt;Spend $149 and buy a good microphone like &lt;a href=&quot;https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Blue Yeti&lt;/a&gt;. You will be heard loud and clear, literally and figuratively. &lt;/p&gt;
 &lt;p&gt;Spend $125 on a &lt;a href=&quot;https://www.logitech.com/en-us/product/c930e-webcam&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;webcam&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/969f7/mic.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -275,18 +481,17 @@ You’ll find some material design implementation for React Native, sure, but th
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;mic&quot;
         title=&quot;&quot;
-        src=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/c739e/mic.jpg&quot;
-        srcset=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/8ee9c/mic.jpg 148w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/ebbe7/mic.jpg 295w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/c739e/mic.jpg 590w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/5413e/mic.jpg 885w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/4efde/mic.jpg 1180w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/abfc3/mic.jpg 1770w,
-/static/b7c0d15f964c1e1eec21f155b27e1b45/969f7/mic.jpg 4651w&quot;
+        src=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/d1491/mic.jpg&quot;
+        srcset=&quot;/static/b7c0d15f964c1e1eec21f155b27e1b45/f6ef9/mic.jpg 148w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/dca31/mic.jpg 295w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/d1491/mic.jpg 590w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/08de0/mic.jpg 885w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/3c224/mic.jpg 1180w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/77f80/mic.jpg 1770w,
+/static/b7c0d15f964c1e1eec21f155b27e1b45/a8781/mic.jpg 4651w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;
 At this point you have a good setup for being heard and seen.&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Be on time to meetings&lt;/li&gt;
@@ -317,14 +522,7 @@ At this point you have a good setup for being heard and seen.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.hofstede-insights.com/product/compare-countries/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Hofstede Insights&lt;/a&gt; has been trying to categorize differences between cultures into groups and connect these groups with countries for a long time now. Even though they compare countries, I believe they should rather focus on comparing cultures themselves. Nevertheless, some conclusions hit home and it’s worth checking out. &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.hofstede-insights.com/models/national-culture/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;These are all very influential factors&lt;/a&gt; that may work for you if you handle them wisely, but they can also take you aback if you underestimate their influence. &lt;/p&gt;
 &lt;h4 id=&quot;lets-compare&quot;&gt;&lt;a href=&quot;#lets-compare&quot; aria-label=&quot;lets compare permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Let’s compare!&lt;/h4&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3e2b252d2758d945719d38132f814bbf/41fac/compare.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -337,18 +535,17 @@ At this point you have a good setup for being heard and seen.&lt;/p&gt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;https://www.hofstede-insights.com/country-comparison/norway,poland,the-usa/&quot;
         title=&quot;&quot;
-        src=&quot;/static/3e2b252d2758d945719d38132f814bbf/b9e4f/compare.png&quot;
-        srcset=&quot;/static/3e2b252d2758d945719d38132f814bbf/cf440/compare.png 148w,
-/static/3e2b252d2758d945719d38132f814bbf/d2d38/compare.png 295w,
-/static/3e2b252d2758d945719d38132f814bbf/b9e4f/compare.png 590w,
-/static/3e2b252d2758d945719d38132f814bbf/f9b6a/compare.png 885w,
-/static/3e2b252d2758d945719d38132f814bbf/2d849/compare.png 1180w,
-/static/3e2b252d2758d945719d38132f814bbf/bbefa/compare.png 1770w,
-/static/3e2b252d2758d945719d38132f814bbf/41fac/compare.png 1946w&quot;
+        src=&quot;/static/3e2b252d2758d945719d38132f814bbf/5186d/compare.png&quot;
+        srcset=&quot;/static/3e2b252d2758d945719d38132f814bbf/cbe86/compare.png 148w,
+/static/3e2b252d2758d945719d38132f814bbf/eda7d/compare.png 295w,
+/static/3e2b252d2758d945719d38132f814bbf/5186d/compare.png 590w,
+/static/3e2b252d2758d945719d38132f814bbf/5746e/compare.png 885w,
+/static/3e2b252d2758d945719d38132f814bbf/b8acd/compare.png 1180w,
+/static/3e2b252d2758d945719d38132f814bbf/95577/compare.png 1770w,
+/static/3e2b252d2758d945719d38132f814bbf/c793c/compare.png 1946w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Take &lt;a href=&quot;https://www.hofstede-insights.com/country-comparison/norway,poland,the-usa/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Poland, Norway and the United States&lt;/a&gt; as an example, and &lt;strong&gt;have some fun comparing them and focusing on Poland&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/fun-acedf88e9f9b6129029c749dc283b7a9.gif&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Relatively high Distance to power and quite low Individualism is definitely what I would expect to be clearly visible in the Polish society now. Hell yeah, whether it’s the influence of years of occupation, wars and socialism I don’t know, but Poles in general are keen to accept authority (as long as it’s Polish, heh).&lt;/em&gt;&lt;/p&gt;
@@ -356,14 +553,7 @@ At this point you have a good setup for being heard and seen.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Uncertainty Avoidance scored almost 100%… “But what is Uncertainty” a Pole may ask you one day. “I haven’t met any in my entire life!“. Totally, most Poles are satisfied with a stable 9-5 job, spending their entire life in the same place, apartment or house.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;By and large Poles are long-term oriented and are quite restrained when it comes to allowing for some enjoyment in their lives. Omg they must be boring as hell! (they are)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Even though I don’t fit into the generalized version of a Polish guy, I must agree that I was raised within such a society. I feel, however, that I recognized these traits and intentionally ditched those which I didn’t accept
-&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/8d0ff/chart.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -376,17 +566,16 @@ At this point you have a good setup for being heard and seen.&lt;/p&gt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/b9e4f/chart.png&quot;
-        srcset=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/cf440/chart.png 148w,
-/static/c171eaccef1fdbc58a9f7eef546b8fde/d2d38/chart.png 295w,
-/static/c171eaccef1fdbc58a9f7eef546b8fde/b9e4f/chart.png 590w,
-/static/c171eaccef1fdbc58a9f7eef546b8fde/f9b6a/chart.png 885w,
-/static/c171eaccef1fdbc58a9f7eef546b8fde/2d849/chart.png 1180w,
-/static/c171eaccef1fdbc58a9f7eef546b8fde/8d0ff/chart.png 1440w&quot;
+        src=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/5186d/chart.png&quot;
+        srcset=&quot;/static/c171eaccef1fdbc58a9f7eef546b8fde/cbe86/chart.png 148w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/eda7d/chart.png 295w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/5186d/chart.png 590w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/5746e/chart.png 885w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/b8acd/chart.png 1180w,
+/static/c171eaccef1fdbc58a9f7eef546b8fde/4099e/chart.png 1440w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt; Knowing your own environment is one thing, and it will help you, but there are even more benefits if you are open to other coworkers’ cultures and beliefs. You will understand that some of them are just part of their identity and cannot be fought back or altered. Instead, they should be understood and some work towards accepting these differences might do wonders for your relationships.&lt;/p&gt;
 &lt;h3 id=&quot;to-sum-up&quot;&gt;&lt;a href=&quot;#to-sum-up&quot; aria-label=&quot;to sum up permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;To sum up&lt;/h3&gt;
 &lt;p&gt;While very attractive and beneficial, remote work comes with some obstacles. Handle them properly and you will be able to focus only on the benefits and forget about the problems. &lt;/p&gt;
@@ -404,14 +593,7 @@ which means I was supposed to help other developers go…]]></description><link>
 which means I was supposed to help other developers go through tasks and answer their questions.
 The workshops, centered on various topics are called &lt;a href=&quot;http://devmeetings.org&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DevMeetings&lt;/a&gt; and are run across Poland every couple of weeks.
 Let’s take a look at some of the topics we covered there:&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/243ce/workshops1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -424,18 +606,17 @@ Let’s take a look at some of the topics we covered there:&lt;/p&gt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;workshops1&quot;
         title=&quot;&quot;
-        src=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/c739e/workshops1.jpg&quot;
-        srcset=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/8ee9c/workshops1.jpg 148w,
-/static/41369af1656ce06d9114c6b4e93e97cc/ebbe7/workshops1.jpg 295w,
-/static/41369af1656ce06d9114c6b4e93e97cc/c739e/workshops1.jpg 590w,
-/static/41369af1656ce06d9114c6b4e93e97cc/5413e/workshops1.jpg 885w,
-/static/41369af1656ce06d9114c6b4e93e97cc/4efde/workshops1.jpg 1180w,
-/static/41369af1656ce06d9114c6b4e93e97cc/abfc3/workshops1.jpg 1770w,
-/static/41369af1656ce06d9114c6b4e93e97cc/243ce/workshops1.jpg 4032w&quot;
+        src=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/d1491/workshops1.jpg&quot;
+        srcset=&quot;/static/41369af1656ce06d9114c6b4e93e97cc/f6ef9/workshops1.jpg 148w,
+/static/41369af1656ce06d9114c6b4e93e97cc/dca31/workshops1.jpg 295w,
+/static/41369af1656ce06d9114c6b4e93e97cc/d1491/workshops1.jpg 590w,
+/static/41369af1656ce06d9114c6b4e93e97cc/08de0/workshops1.jpg 885w,
+/static/41369af1656ce06d9114c6b4e93e97cc/3c224/workshops1.jpg 1180w,
+/static/41369af1656ce06d9114c6b4e93e97cc/77f80/workshops1.jpg 1770w,
+/static/41369af1656ce06d9114c6b4e93e97cc/1d179/workshops1.jpg 4032w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;what-they-learned&quot;&gt;&lt;a href=&quot;#what-they-learned&quot; aria-label=&quot;what they learned permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What They learned&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Expo&lt;/li&gt;
@@ -545,14 +726,7 @@ at the beginning but quickly becomes clear when they notice that we are in the w
 strikes again, I know, but it hammered home to me during the last workshops. The
 tasks given to people are mostly far from being mundane and obvious to
 participants. It challenges them and gives them additional motivation to build something new.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/d862d/workshops2.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -565,18 +739,17 @@ participants. It challenges them and gives them additional motivation to build s
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;workshops2&quot;
         title=&quot;&quot;
-        src=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/c739e/workshops2.jpg&quot;
-        srcset=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/8ee9c/workshops2.jpg 148w,
-/static/09cdd7a8db1643b99385bb7fa55be380/ebbe7/workshops2.jpg 295w,
-/static/09cdd7a8db1643b99385bb7fa55be380/c739e/workshops2.jpg 590w,
-/static/09cdd7a8db1643b99385bb7fa55be380/5413e/workshops2.jpg 885w,
-/static/09cdd7a8db1643b99385bb7fa55be380/4efde/workshops2.jpg 1180w,
-/static/09cdd7a8db1643b99385bb7fa55be380/abfc3/workshops2.jpg 1770w,
-/static/09cdd7a8db1643b99385bb7fa55be380/d862d/workshops2.jpg 3088w&quot;
+        src=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/d1491/workshops2.jpg&quot;
+        srcset=&quot;/static/09cdd7a8db1643b99385bb7fa55be380/f6ef9/workshops2.jpg 148w,
+/static/09cdd7a8db1643b99385bb7fa55be380/dca31/workshops2.jpg 295w,
+/static/09cdd7a8db1643b99385bb7fa55be380/d1491/workshops2.jpg 590w,
+/static/09cdd7a8db1643b99385bb7fa55be380/08de0/workshops2.jpg 885w,
+/static/09cdd7a8db1643b99385bb7fa55be380/3c224/workshops2.jpg 1180w,
+/static/09cdd7a8db1643b99385bb7fa55be380/77f80/workshops2.jpg 1770w,
+/static/09cdd7a8db1643b99385bb7fa55be380/e885c/workshops2.jpg 3088w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Also, there are many things I thought I’d known before I was asked to explain
 them in detail, like differences between &lt;code class=&quot;language-text&quot;&gt;div&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Text&lt;/code&gt;, or
 intricate details about Expo.&lt;/p&gt;
@@ -671,14 +844,7 @@ their way to succeeding, and the key here is to get that information from bottom
 and have those “process organizers” deal with them. The same is true of any kind
 of feedback you might get from them since the chances are you work among highly
 intelligent people and it would be a shame not to benefit from that.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7379d924b924f38c69ced9d13ccf2da7/8179c/OneOnOne2.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -691,17 +857,16 @@ intelligent people and it would be a shame not to benefit from that.&lt;/p&gt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;OneOnOne2&quot;
         title=&quot;&quot;
-        src=&quot;/static/7379d924b924f38c69ced9d13ccf2da7/c739e/OneOnOne2.jpg&quot;
-        srcset=&quot;/static/7379d924b924f38c69ced9d13ccf2da7/8ee9c/OneOnOne2.jpg 148w,
-/static/7379d924b924f38c69ced9d13ccf2da7/ebbe7/OneOnOne2.jpg 295w,
-/static/7379d924b924f38c69ced9d13ccf2da7/c739e/OneOnOne2.jpg 590w,
-/static/7379d924b924f38c69ced9d13ccf2da7/5413e/OneOnOne2.jpg 885w,
-/static/7379d924b924f38c69ced9d13ccf2da7/4efde/OneOnOne2.jpg 1180w,
-/static/7379d924b924f38c69ced9d13ccf2da7/8179c/OneOnOne2.jpg 1600w&quot;
+        src=&quot;/static/7379d924b924f38c69ced9d13ccf2da7/d1491/OneOnOne2.jpg&quot;
+        srcset=&quot;/static/7379d924b924f38c69ced9d13ccf2da7/f6ef9/OneOnOne2.jpg 148w,
+/static/7379d924b924f38c69ced9d13ccf2da7/dca31/OneOnOne2.jpg 295w,
+/static/7379d924b924f38c69ced9d13ccf2da7/d1491/OneOnOne2.jpg 590w,
+/static/7379d924b924f38c69ced9d13ccf2da7/08de0/OneOnOne2.jpg 885w,
+/static/7379d924b924f38c69ced9d13ccf2da7/3c224/OneOnOne2.jpg 1180w,
+/static/7379d924b924f38c69ced9d13ccf2da7/b7ec6/OneOnOne2.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;happy-people-work-better&quot;&gt;&lt;a href=&quot;#happy-people-work-better&quot; aria-label=&quot;happy people work better permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Happy people work better&lt;/h4&gt;
 &lt;p&gt;Does anybody dare to argue with that? If no, okay then let’s move forward.&lt;/p&gt;
 &lt;p&gt;Or, let’s spend a minute here. There is a good chance that most of you have generally worked with highly
@@ -744,14 +909,7 @@ between leaders and those who are being led. &lt;/p&gt;
 &lt;h3 id=&quot;what-is-a-1on1-meeting-and-what-is-not&quot;&gt;&lt;a href=&quot;#what-is-a-1on1-meeting-and-what-is-not&quot; aria-label=&quot;what is a 1on1 meeting and what is not permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is a 1on1 meeting and what is not&lt;/h3&gt;
 &lt;p&gt;Each meeting may or may not have an agenda, though it should be stated
 beforehand what kind of topics are preferable.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/50d853662075643fb7599ee113166baa/8179c/OneOnOne.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
   &gt;
@@ -764,17 +922,16 @@ beforehand what kind of topics are preferable.&lt;/p&gt;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;OneOnOne&quot;
         title=&quot;&quot;
-        src=&quot;/static/50d853662075643fb7599ee113166baa/c739e/OneOnOne.jpg&quot;
-        srcset=&quot;/static/50d853662075643fb7599ee113166baa/8ee9c/OneOnOne.jpg 148w,
-/static/50d853662075643fb7599ee113166baa/ebbe7/OneOnOne.jpg 295w,
-/static/50d853662075643fb7599ee113166baa/c739e/OneOnOne.jpg 590w,
-/static/50d853662075643fb7599ee113166baa/5413e/OneOnOne.jpg 885w,
-/static/50d853662075643fb7599ee113166baa/4efde/OneOnOne.jpg 1180w,
-/static/50d853662075643fb7599ee113166baa/8179c/OneOnOne.jpg 1600w&quot;
+        src=&quot;/static/50d853662075643fb7599ee113166baa/d1491/OneOnOne.jpg&quot;
+        srcset=&quot;/static/50d853662075643fb7599ee113166baa/f6ef9/OneOnOne.jpg 148w,
+/static/50d853662075643fb7599ee113166baa/dca31/OneOnOne.jpg 295w,
+/static/50d853662075643fb7599ee113166baa/d1491/OneOnOne.jpg 590w,
+/static/50d853662075643fb7599ee113166baa/08de0/OneOnOne.jpg 885w,
+/static/50d853662075643fb7599ee113166baa/3c224/OneOnOne.jpg 1180w,
+/static/50d853662075643fb7599ee113166baa/b7ec6/OneOnOne.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;topics&quot;&gt;&lt;a href=&quot;#topics&quot; aria-label=&quot;topics permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Topics&lt;/h4&gt;
 &lt;p&gt;While the list of possible topics may become as long as my arm and depends on a
 particular project or company, the list of undesirable ones is quite short and
