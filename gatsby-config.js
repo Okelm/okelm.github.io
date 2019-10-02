@@ -70,6 +70,7 @@ module.exports = {
               // Accepts all options defined by `babel-plugin-emotion` plugin.
             },
           },
+          `gatsby-remark-embedder`,
         ],
       },
     },
@@ -105,5 +106,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-twitter`,
   ],
 }
