@@ -9,7 +9,7 @@ description: "A concise guide to consuming an emdebbed codesandboxes."
 - **[Changing the view](http://bwidlarz.com/codesandbox/#changing-the-view)**
 - **[Open in Editor](http://bwidlarz.com/codesandbox/#open-in-editor)**
 
-### Codesandbox
+### CodeSandbox
 
 This is a code sandbox:
 
@@ -21,7 +21,7 @@ This is a code sandbox:
     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
 </iframe>
 
-Codesandbox is an online code editor, more info can be found here in its [docs](https://codesandbox.io/docs/#what-is-codesandbox).
+CodeSandbox is an online code editor, more info can be found here in its [docs](https://codesandbox.io/docs/#what-is-codesandbox).
 ### Explorer
 
 Click the hamburger menu to see the folder structure:
@@ -33,12 +33,12 @@ This should look familiar:
 
 ### Changing the view
 
-This tool is amazing, yet IMO this is the confusing part of codesandbox UI. It wasn't obvious to me what it does until I clicked it:
+This tool is amazing, yet IMO this is the most confusing part of the CodeSandbox UI. It wasn't obvious to me what it does until I clicked it:
 
 ![](./menuArrow.png)
 ![](./explain.png)
-- **Editor** is what you have seen already. You edit code there,
-- **Preview** depends on the sandbox setting and can be a browser with rendered output or tests results. In this case we edit functions with unit tests, so clicking **Preview** runs tests and show results,
+- **Editor** is what you have already seen. You edit code there,
+- **Preview** depends on the sandbox setting and can be a browser with rendered output or tests’ results. In this case we edit functions with unit tests, so clicking **Preview** runs tests and shows the results,
 - **Editor/Preview** the screen splits to show both options.
 
 Go to the [sandbox](http://bwidlarz.com/link) and play with the view options: 
@@ -51,8 +51,8 @@ Once you change something in the code, the code is rerun after each keystroke.
 Clicking this:
 ![](./openEditor.png)
 
-Moves you straight to the web app which brings you full set of options:
+Moves you straight to the web app which gives you a full set of options:
 ![](./editor.png)
 Most of them are available from the embedded version too though.
 
-Now when you know the basics you can go and utilize embedded sandboxes in every blog post and documentation!
+Now that you know the basics you can go and utilize embedded sandboxes in every blog post and documentation!
