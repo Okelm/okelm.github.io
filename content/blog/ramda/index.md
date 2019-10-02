@@ -1,6 +1,6 @@
 ---
 title: Ramda vs Vanilla JS
-date: "2019-09-04"
+date: "2019-10-02"
 description: "A couple of use cases for functional programming with Ramda and a comparison with the Vanilla JS implementation."
 ---
 
