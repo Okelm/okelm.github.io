@@ -1,7 +1,7 @@
 ---
 title: Ramda vs Vanilla JS
 date: "2019-09-04"
-description: "A couple of use cases for functional programming with Ramda and comparision to Vanilla JS implementation."
+description: "A couple of use cases for functional programming with Ramda and a comparison with the Vanilla JS implementation."
 ---
 
 - **[Introduction](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
@@ -12,27 +12,27 @@ description: "A couple of use cases for functional programming with Ramda and co
 - **[Ranges generation](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 - **[Handling side effects while staying functional](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 - **[Currying and partial application in one](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
-- **[Sump up](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
+- **[Summary](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
 
 This is a list of functions linked to the the section with usage: 
 - [propOr](), [map](), [cond](), [either](), [equals](), [always](), [T](), [mergeDeepWith](), [concat](), [range](), [pipe](), [sum](), [tap](), [lt (lessThan)](), [curry]()
 
-Please reach out to [documentation](https://ramdajs.com/docs/#) to read up on detailed explantion of each function.
+Please reach out to the [documentation](https://ramdajs.com/docs/#) to read up on a detailed explanation of each function.
 
 ### Introduction
 
-My intention is to show some usage of Ramda library, and to better express what is happening with this concise functional code of Ramda, there are equivalent-ish implementations in Vanilla JS.
+My intention is to show some examples of usage of the Ramda library and, since there are some relatively similar implementations in Vanilla JS , to better express what is happening with the concise functional code of Ramda..
 
-I'm not opting for using Ramda everywhere, just to be clear. I don't like how people are trying to be consistent and use one lib wherever they can. Instead, I prefer to produce a readable code consistently, with all the means necessary.
+I'm not a proponent of using Ramda everywhere, just to be clear. I don't like how people try to be consistent and use one lib wherever they can. Instead, I prefer to consistently produce readable code, using any means necessary.
 
 https://twitter.com/dabit3/status/1156932035501547520?s=20
 
 
-I don't want to explain how functions work, neither judge which approach is better than other. I will rather show examples in context and compare to vanilia JS implementation if possible.
+I don't want to explain how functions work or judge which approach is better than the other. I will rather show examples in context and compare them with the Vanilla JS implementation if possible.
 
 ### Codesandbox
 
-To support better reading experience you get access to the whole code from the article which you can change, fork and test - there are unit tests for each and every case:
+To support a better reading experience you get access to all of the code from the article which you can change, fork and test - there are unit tests for each and every case:
 
 <iframe 
   src="https://codesandbox.io/embed/github/Okelm/ramda-vs-vanilla-js/tree/master/?fontsize=14&hidenavigation=1&module=%2Fsrc%2Faccessing-nested-values.js&previewwindow=tests" 
@@ -44,15 +44,15 @@ To support better reading experience you get access to the whole code from the a
 
 ### Safely accessing deeply nested values
 
-It's always been tedious to reach the nested data in JS objects and everybody has been waiting for optional chaining for long time now and [happily we're getting there](https://github.com/tc39/proposal-optional-chaining).
+It's always been tedious to reach nested data in JS objects. Everybody has been waiting for optional chaining for a long time now and [happily we're getting there](https://github.com/tc39/proposal-optional-chaining).
 
-I've first seen it in Kotlin while working on native Android apps, and it seems that the syntax will be similar:
+I first saw it in Kotlin while working on native Android apps, and it seems that the syntax will be similar:
 
 ```js
 const includes = app?.data?.listOfItems?.includes("something")
 ```
 
-Until then (or until you [use this](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining)) you could either use one of the existing libraries or vanilia JS:
+Until then (or until you [use this](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining)) you could either use one of the existing libraries or Vanilla JS:
 
 ```js
 const includesJS = obj => !!obj && 
@@ -67,11 +67,11 @@ const includesRamda = obj => R.pathOr([], ['data', 'listOfItems'], obj).includes
 ```
 
 ### Data transformation
-Let's complicate the above example. Not only do we have to access nested object but also map results. 
+Let's complicate this example . Not only do we have to access the nested object but also map over the results.
 
-It's not always that great so you don't have to do any data transformations before rendering, because fetched data fully match client's needs. Especially if you work with legacy code, or you have just been involved in rapid prototyping for a startup, your data scheme between how it looks on backend and what frontend needs will definitely vary.
+It may be the case that you don't have to do any data transformations before rendering, because the fetched data fully matches the client's needs. But things don’t always go so smoothly. Especially if you work with legacy code, or you have just been involved in rapid prototyping for a startup, there will definitely be a discrepancy between how your data scheme looks on the backend and what the frontend needs.
 
-Imagine you have an object which has a list of items that you want to map to something else, defaulted to empty array if something is missing:
+Imagine you have an object which has a list of items that you want to map to something else, which defaults to an empty array if something is missing:
 
 ```js
 const favorites = {
@@ -89,7 +89,7 @@ const favorites = {
 }
 ```
 
-You're using untyped JS, but if it was Typescipt, types would tell you that data at all levels are optional:
+You're using untyped JS, but if it was TypeScript, types would tell you that data at all levels are optional:
 
 
 ```ts
@@ -104,7 +104,7 @@ interface Favorites = {
 
 const enhanceFavoritesTs = (favs?: Favorites): EnhancedFavorites
 ```
-And maybe if we were completely sure that none of our data are missing we could just do it in the following way:
+And maybe if we were completely sure that none of our data would be missing we could just do it in the following way:
 
 ```ts
 export const enhanceFavoritesTs = (favs: Favorites): EnhancedFavorites =>
@@ -115,10 +115,9 @@ export const enhanceFavoritesTs = (favs: Favorites): EnhancedFavorites =>
   }))
 
 ```
-But instead, we don't know anything about types and we have to assume that it can crash at any time during accessing to nested values. And here are just 3 examples of how this case can be handled:
+But instead we don't know anything about types and we have to assume that it can crash at any time when accessing the nested values. And here are just 3 examples of how this case can be handled:
 
-You can start by implementing a solution with a ternary operator, but you will quickly notice that you will not pull it off without nesting a ternary operator to ensure you won't reaching undefined value of favs or movies:
-
+You can start by implementing a solution with a ternary operator. You will quickly notice, however, that you can’t pull this off without nesting another ternary operator to ensure that both favs and movies are not undefined:
 ```js
 export const enhanceFavoritesTernary = favs =>
   favs
@@ -132,7 +131,7 @@ export const enhanceFavoritesTernary = favs =>
     : []
 ```
 
-You decide to ditch ternany operator by following your gut feeling, or strict enough configuration of linter, or maybe your coleague's advice during code review... anyways, now you use a bunch of if-else statements:
+You decide to ditch the ternary operator by following your gut feeling, or if the linter configuration was strict enough, or maybe because of your colleague's advice during code review... anyways, now you use a bunch of if-else statements:
 
 ```js
 export const enhanceFavoritesIfs = favs => {
@@ -166,13 +165,13 @@ export const enhanceFavoritesRamda = R.pipe(
 )
 ```
 
-It differs very much from vanilia JS implementations. Where is even a fat arrow? Where is a parameter? Well, it's created by R.pipe behind the scene. The function takes implicitly whatever you provide it with and pass along to the first function. It executes from left to right (or top-down in here), starting by accessing movies property and defaulting to empty array if needed, and then mapping to what we need.
+It differs very much from the Vanilla JS implementations. No fat arrow? No parameter? Well, it's created by R.pipe behind the scenes. The function takes whatever you provide it with and implicitly passes it along to the first function. It executes from left to right (or top-down here): it first accesses the ‘movies’ property and defaults to an empty array if needed, and then maps to what we need.
 
-One thing can be notice there at this point - Ramda allows to easily compose functions. 
+One thing can be noticed at this point - Ramda allows for the easy composition of functions.
 
 ### Conditionals
 
-You simply want to map one string to another, depending on what the string is. It might be that there are a business need to rename types of an entity, and there's no way that the change would be done on the backend side:
+You simply want to map one string to another, depending on what the string is. It might be that there is a business need to rename types of an entity, and there's no way that the change would be done on the backend:
 
 Implementation with if statements:
 
@@ -223,7 +222,7 @@ export const mappingRamda = R.cond([
 
 ### Merging objects
 
-Imagine you have to update an object with some new properties. Like, let's say, you use Redux and you have pretty complex state object which stores various information about your app. It looks like this:
+Imagine you have to update an object with some new properties. Let's say you’re using Redux and you have a pretty complex state object which stores various information about your app. It looks like this:
 
 ![](./deepmerge.png)
 
@@ -270,9 +269,9 @@ const update = {
 }
 ```
 
-There is just one change here, two new items are added to one of the nested list.
+There is just one change here, two new items are added to one of the nested lists.
 
-Solution with vanilia JS:
+Solution with Vanilla JS:
 
 ```js
 const output = {
@@ -294,13 +293,13 @@ Solution with Ramda:
 const output = R.mergeDeepWith(R.concat, state, update)
 ```
 
-The problem with vanilia JS implementation is that it is narrowed only for that particular case. If we add another property to the update object, our implementation will have to be updated too.
+The problem with the Vanilla JS implementation is that it will only work for that particular case. If we add another property to the ‘update’ object, our implementation will have to be updated too.
 
-What is a caveat for one case, it's an advantage for another. Ramda implemenation will execute deep merge for the whole object, whereas you may want to choose where to apply the change instead.
+A caveat for one case is an advantage for another. The Ramda implementation will execute deep merge for the whole object, whereas you may want to choose where to apply the change instead.
 
 ### Ranges generation
 
-You need a list of numbers going from `a` to `b`. Like range(30, 32) yields [30, 31, 32]. Unless you implement your own solution for JS you don't have a utility. While there are number of ways to implement it [in vanilla js](https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp), one can choose to use a `range` from Ramda:
+You need a list of numbers going from `a` to `b`. Like range(30, 32) yields [30, 31, 32]. Unless you implement your own solution for JS you don't have a utility to do this. While there are number of ways to implement it [in vanilla js](https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp), one can choose to use a `range` from Ramda:
 
 ```js
 R.range(30, 32)
@@ -311,7 +310,7 @@ R.range(30, 32)
 Handling UI is inherently connected with side effects. Either from user interactions with a UI, or when fetching data and depending on the response. 
 
 You can use `R.when` to fire-and-forget any function
-(just be careful with interpreting `gt` which stands for grater than https://github.com/ramda/ramda/issues/1497)
+(just be careful with interpreting `gt`, which stands for greater than https://github.com/ramda/ramda/issues/1497)
   
 ```js
 export const sideEffectRamda = (date, navigate) =>
@@ -338,9 +337,9 @@ export const sideEffectJs = (date, navigate) => {
 
 ### Currying and partial application in one
 
-Currying and partial application is achieved with Ramda with single operator named `curry`. With that you receive all-in-one and gains a flexibility to apply any amount of whichever arguments you choose.
+Currying and partial application is achieved with Ramda with a single operator named `curry`. This is basically an all-in-one solution which gives you the flexibility to apply any number of whichever arguments you choose.
 
-For instanceh, having a function which takes 3 arguments, you can apply second and third, and get a function which gets first as a result (and that function will have the second and the third already in the closure)
+For instance, if you have a function which takes 3 arguments, you can apply the second and third and get a function which gets the first as a result (and that function will already have the second and third arguments in its closure)
 
 ```js
 const example = R.curry((first, second, third) => {})
@@ -352,8 +351,8 @@ const result1 = example(first, second, third)
 // and so on
 ```
 
-One of a practical usage is to apply an argument which is the same for more than one function invocation.
-So instead:
+One of the practical usages of this operator is to apply an argument which is the same for more than one function invocation. 
+So instead of:
 
 ```js
 const sum1 = sumUp(elements, "wooden")
@@ -361,7 +360,7 @@ const sum1 = sumUp(elements, "metal")
 const sum1 = sumUp(elements, "ceramic")
 ```
 
-You can do and avoid repetition:
+You can do the following and avoid repetition:
 
 ```js
 const sumUpElements = sumUp(elements)
@@ -384,7 +383,7 @@ const sumUpRamda = R.curry((element, type) =>
 )
 ```
 
-We can try a simple Vanilia js implememtation, and compare these two:
+We can try a simple Vanilla JS implementation, and compare the two:
 
 ```js
 const sumUpJS = element => type =>
@@ -402,19 +401,19 @@ const elementList = [
 ]
 ```
 #### Vanilla JS
-We don't have much flexibility regarding our JS implementation:
-- either supply argumnets one by one:
+There’s not much flexibility with the JS implementation:
+- either supply the arguments one by one:
 ```js
 const sumJS = sumUpJS(elementList)('requested')
 ```
-- or supply first argument, name the next function, and then call it later with the second argument:
+- or supply the first argument, name the next function, and then call it later with the second argument:
 
 ```js
 const sumUpElements = sumUpJS(elementList)
 const sum = sumUpElements('requested')
 ```
 #### Ramda
-We can provide all argument at once:
+We can provide all of the arguments at once:
 ```js
 const sum1 = sumUpRamda(elementList, 'requested')
 ```
@@ -423,7 +422,7 @@ First argument, name the function, then the second later on:
 const sumUpElements = sumUpRamda(elementList)
 const sum2 = sumUpElements('requested')
 ```
-This is really different, we can provide second argument, which creates function that takes the first of the initial function.
+This is really different, we can provide the second argument, which creates the function that takes the first from the initial function.
 ```js
 const sumUpTypeRequested = sumUpRamda(R.__, 'requested')
 const sum3 = sumUpTypeRequested(elementList)
@@ -431,6 +430,6 @@ const sum3 = sumUpTypeRequested(elementList)
 
 Obviously, the number of possibilities grows with the number of arguments.
 
-### Sum up
+### Summary
 
-Even though, the goal of this post isn't to judge, Ramda enables all sorts of functional patterns and comes with a set of handy functions. It doesn't come without a price: a brand new syntax.
+Even though the goal of this post isn't to judge, Ramda enables all sorts of functional patterns and comes with a set of handy functions. It doesn't come without a price: a brand new syntax.
