@@ -4,18 +4,19 @@ date: "2019-09-04"
 description: "A couple of use cases for functional programming with Ramda and a comparison with the Vanilla JS implementation."
 ---
 
-- **[Introduction](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
-- **[Safely accessing deeply nested values](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
-- **[Data transformations](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
-- **[Conditionals](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
-- **[Merging objects](https://bwidlarz.com/react-vs-react-native/#other-differences)**
-- **[Ranges generation](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
-- **[Handling side effects while staying functional](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
-- **[Currying and partial application in one](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
-- **[Summary](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
+- **[Introduction](http://bwidlarz.com/ramda/#introduction)**
+- **[CodeSandbox](https://bwidlarz.com/ramda/#codesandbox)**
+- **[Safely accessing deeply nested values](https://bwidlarz.com/ramda/#safely-accessing-deeply-nested-values)**
+- **[Data transformations](https://bwidlarz.com/ramda/#data-transformation)**
+- **[Conditionals](https://bwidlarz.com/ramda/#conditionals)**
+- **[Merging objects](https://bwidlarz.com/ramda/#merging-objects)**
+- **[Ranges generation](https://bwidlarz.com/ramda/#ranges-generation)**
+- **[Handling side effects while staying functional](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain)**
+- **[Currying and partial application in one](https://bwidlarz.com/ramda/#currying-and-partial-application-in-one)**
+- **[Summary](https://bwidlarz.com/ramda/#summary)**
 
 This is a list of functions linked to the the section with usage: 
-- [propOr](), [map](), [cond](), [either](), [equals](), [always](), [T](), [mergeDeepWith](), [concat](), [range](), [pipe](), [sum](), [tap](), [lt (lessThan)](), [curry]()
+- [propOr](https://bwidlarz.com/ramda/#data-transformation), [prop](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain), [map](https://bwidlarz.com/ramda/#data-transformation), [cond](https://bwidlarz.com/ramda/#conditionals), [either](https://bwidlarz.com/ramda/#conditionals), [equals](https://bwidlarz.com/ramda/#conditionals), [always](https://bwidlarz.com/ramda/#conditionals), [T](https://bwidlarz.com/ramda/#conditionals), [__](https://bwidlarz.com/ramda/#currying-and-partial-application-in-one), [mergeDeepWith](https://bwidlarz.com/ramda/#merging-objects), [concat](https://bwidlarz.com/ramda/#merging-objects), [range](https://bwidlarz.com/ramda/#ranges-generation), [pipe](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain), [sum](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain), [tap](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain), [lt (lessThan)](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain), [curry](https://bwidlarz.com/ramda/#currying-and-partial-application-in-one), [when](https://bwidlarz.com/ramda/#handling-side-effects-and-not-leaving-a-chain)
 
 Please reach out to the [documentation](https://ramdajs.com/docs/#) to read up on a detailed explanation of each function.
 
