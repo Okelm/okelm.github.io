@@ -4,11 +4,11 @@ date: "2019-06-27"
 description: "Comparison of these two realms"
 ---
 
-- **[Moving back and forth between React <-> React Native projects](http://bwidlarz.com/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
-- **[Differences in code](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
-- **[They are only renderers](https://bwidlarz.com/react-vs-react-native/#differences-in-code)**
-- **[Other differences](https://bwidlarz.com/react-vs-react-native/#other-differences)**
-- **[So maybe React Native Web?](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)**
+- **[Moving back and forth between React <-> React Native projects](/react-vs-react-native/#moving-between-react---react-native-back-and-forth)**
+- **[Differences in code](/react-vs-react-native/#differences-in-code)**
+- **[They are only renderers](/react-vs-react-native/#differences-in-code)**
+- **[Other differences](/react-vs-react-native/#other-differences)**
+- **[So maybe React Native Web?](/react-vs-react-native/#so-maybe-react-native-web)**
 
 ### Moving back and forth between React <-> React Native 
 
@@ -199,7 +199,7 @@ That's exactly how most user interfaces behave.
 So what's React's job and what is the difference when compared to React Native?
 
 **It's React in both web and mobile.** Only the renderer makes the difference.
-The renderer on the web is React DOM and on iOS and Android it's React Native. [But React Native can also be used to render to the DOM](https://bwidlarz.com/react-vs-react-native/#so-maybe-react-native-web)
+The renderer on the web is React DOM and on iOS and Android it's React Native. [But React Native can also be used to render to the DOM](/react-vs-react-native/#so-maybe-react-native-web)
 
 If you're interested in digging deeper I highly recommend [the reading](https://overreacted.io/react-as-a-ui-runtime/).
 ### Other differences

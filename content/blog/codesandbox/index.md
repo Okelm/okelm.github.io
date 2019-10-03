@@ -4,10 +4,10 @@ date: "2019-09-14"
 description: "A concise guide to consuming an emdebbed codesandboxes."
 ---
 
-- **[Codesandbox](http://bwidlarz.com/codesandbox/#codesandbox)**
-- **[Explorer](http://bwidlarz.com/codesandbox/#explorer)**
-- **[Changing the view](http://bwidlarz.com/codesandbox/#changing-the-view)**
-- **[Open in Editor](http://bwidlarz.com/codesandbox/#open-in-editor)**
+- **[Codesandbox](/codesandbox/#codesandbox)**
+- **[Explorer](/codesandbox/#explorer)**
+- **[Changing the view](/codesandbox/#changing-the-view)**
+- **[Open in Editor](/codesandbox/#open-in-editor)**
 
 ### CodeSandbox
 
@@ -41,7 +41,7 @@ This tool is amazing, yet IMO this is the most confusing part of the CodeSandbox
 - **Preview** depends on the sandbox setting and can be a browser with rendered output or tests’ results. In this case we edit functions with unit tests, so clicking **Preview** runs tests and shows the results,
 - **Editor/Preview** the screen splits to show both options.
 
-Go to the [sandbox](http://bwidlarz.com/link) and play with the view options: 
+Go to the [sandbox](/codesandbox) and play with the view options: 
 ![](./changed.png)
 Once you change something in the code, the code is rerun after each keystroke.
 ![](./split.png)
