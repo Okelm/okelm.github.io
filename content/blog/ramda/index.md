@@ -22,7 +22,7 @@ Please reach out to the [documentation](https://ramdajs.com/docs/#) to read up o
 
 ### Introduction
 
-My intention is to show some examples of usage of the Ramda library and, since there are some relatively similar implementations in Vanilla JS , to better express what is happening with the concise functional code of Ramda..
+My intention is to show some examples of usage of the Ramda library and, since there are some relatively similar implementations in Vanilla JS, to better express what is happening with the concise functional code of Ramda..
 
 I'm not a proponent of using Ramda everywhere, just to be clear. I don't like how people try to be consistent and use one lib wherever they can. Instead, I prefer to consistently produce readable code, using any means necessary.
 
@@ -31,9 +31,9 @@ https://twitter.com/dabit3/status/1156932035501547520?s=20
 
 I don't want to explain how functions work or judge which approach is better than the other. I will rather show examples in context and compare them with the Vanilla JS implementation if possible.
 
-### Codesandbox
+### CodeSandbox
 
-To support a better reading experience you get access to all of the code from the article which you can change, fork and test - there are unit tests for each and every case:
+To support a better reading experience you get access to all of the code from the article which you can change, fork and test - there are unit tests for each and every case. Moreover, you can find a tutorial on how to consume [CodeSanboxes here](https://bwidlarz.com/codesandbox/).
 
 <iframe 
   src="https://codesandbox.io/embed/github/Okelm/ramda-vs-vanilla-js/tree/master/?fontsize=14&hidenavigation=1&module=%2Fsrc%2Faccessing-nested-values.js&previewwindow=tests" 
