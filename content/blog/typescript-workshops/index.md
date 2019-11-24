@@ -1,5 +1,5 @@
 ---
-title: TypeScript
+title: TypeScript is your friend!
 date: "2019-11-22"
 description: "Typescript is THE tool"
 ---
@@ -58,7 +58,11 @@ TypeScript is here to help you achieve some of these ^ namely:
 
 ### Compile-time, build-time, runtime but first... author-time
 
-Before a developer first take advantage of compile-time type checking, they can first experience a pleasent experience of autocompletion when writing their code. 
+Before a developer first take advantage of compile-time type checking, they can first experience a pleasent experience of roboust autocompletion when writing their code in most of the modern IDEs. 
+
+![](./autocomplete.png)
+
+So it helps you even when you write your code, which leads to fewer typos. It also prevents you from checking an object property each time you want to access it, just because you've forgotten.
 
 ### Type safety - the thing that draws developer's attention
 
@@ -235,7 +239,16 @@ This is the file I used for one project in 2017 for one of our React Native proj
 }
 ```
 
-alwaysStrict
-strictNullChecks
-noImplicitAny
-noImplicitThis
+From all the noise (but some of these may well come in handy one day) these are the ones that make your TypeScript code save:
+
+```js
+strict - Enable all strict type-checking options.
+alwaysStrict - Parse in strict mode and emit "use strict" for each source file.
+strictNullChecks - Enable strict null checks.
+noImplicitAny - Raise error on expressions and declarations with an implied 'any' type
+noImplicitThis - Raise error on 'this' expressions with an implied 'any' type.
+noUnusedLocals - Report errors on unused locals.
+noUnusedParameters - Report errors on unused parameters.
+noImplicitReturns - Report error when not all code paths in function return a value.
+noFallthroughCasesInSwitch - Report errors for fallthrough cases in switch statement.
+```
