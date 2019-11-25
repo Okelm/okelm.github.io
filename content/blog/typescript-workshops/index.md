@@ -5,11 +5,13 @@ description: "Typescript is THE tool"
 ---
 
 - **[What do you know that makes you think you can actually write and teach about TypeScript?]()**
-- **[TypeScript in general]()**
+- **[TypeScript in general. Benefits]()**
 - **[Compile time, build time, run time and... author time]()**
 - **[Static types - the thing that draw developer's attention]()**
 - **[Having a good configuration]()**
 - **[Caveats]()**
+- **[Further reading]()**
+- **[Summary]()**
 
 
 ### What do you know that makes you think you can actually write about and teach TypeScript?
@@ -28,7 +30,7 @@ Interestingly, I had first started with TypeScript before I moved to JavaScript.
 
 In 2019 I ran workshops on React and TypeScript, the material can be found here: https://okelm.gitbook.io/devmeetings-react-ts-fork/ This was an collaborative effort of [Maciej Kucharski](https://github.com/kucharskimaciej), [Devmeetings](http://devmeetings.org/pl) and me.
 
-## TypeScript in general
+## TypeScript in general. Benefits
 
 You may find various opinions on the Internet:
 >TypeScript is JavaScript with types
@@ -56,17 +58,27 @@ TypeScript is here to help you achieve some of these ^ namely:
 
 > The thing that I believe would make software developmnet in JavaScript better is having strong and static type system.
 
+That's my opinion, I know people are more opinionated about that. Like [Cem Turan](https://twitter.com/cem2ran) on the [App.js](https://appjs.co/) conference expressed that in this way:
+
+![](./ethics.jpeg)
+
+
 ### Compile-time, build-time, runtime but first... author-time
 
-Before a developer first take advantage of compile-time type checking, they can first experience a pleasent experience of roboust autocompletion when writing their code in most of the modern IDEs. 
+
+Before a developer first take advantage of compile-time type checking, they can first experience a pleasent experience of roboust autocompletion when writing their code in most of the modern IDEs. The time you write your programs can be called **author-time**.
 
 ![](./autocomplete.png)
 
 So it helps you even when you write your code, which leads to fewer typos. It also prevents you from checking an object property each time you want to access it, just because you've forgotten.
 
-### Type safety - the thing that draws developer's attention
+Next is when your code is compiling and that's when static type checking is happending, it's called **compile-time**, which preceeds **build-time** - the time to gather up all the assets and build the app.
 
-TypeScript has a different approach to typing. The difference lays basically is between _static and dynamic_ types.
+Once you deploy your app and start using it after hours/weeks/years of development, you can say it finally runs. That is **runtime**, and that's the final destination of all the apps.
+
+### Type system - closer look
+
+TypeScript has a different approach to typing. The difference lays basically between **static and dynamic** types.
 
 By and large, it's the subject of discussion which approach is better, but most of developers would agree that for some programming langagues design it's more appropriate to have one approach than the other. So, _it depends_. The current trend is to rather have strong, static types, rather than loose and dynamic.
 
@@ -88,7 +100,7 @@ It means that TypeScript allows you to add types to your existing JS codebase st
 
 #### Duck and structural
 
-JavaScript type system can be described as being _duck typed_ which means that the type checking is basically checking if in the particular runtime situation an object has particular properties or behaviors. Like in the example:
+JavaScript type system can be described as being **duck typed** which means that the type checking is basically checking if in the particular runtime situation an object has particular properties or behaviors. Like in the example:
 
 ```jsx
 const gimmeName = somebody => somebody.name
@@ -192,11 +204,6 @@ It would be tiring and inefficient to say the least.
 
 If you write a type once, the compiler knows what is the type of the structure and will validate it.
 
-### Caveats
-
-No type inference for function parameters
-_Any_ is a proper type that one can use
-
 ### Having a good configuration
 
 TypeScript compiler is configurable and from that config depends what style of programming in TypeScript we will get.
@@ -252,3 +259,45 @@ noUnusedParameters - Report errors on unused parameters.
 noImplicitReturns - Report error when not all code paths in function return a value.
 noFallthroughCasesInSwitch - Report errors for fallthrough cases in switch statement.
 ```
+
+>If you start a new project you want to have all the flags set to true
+
+>If you are to add TypeScript to an existing project you should consider setting some of them to false at the beginning
+
+### Caveats
+
+Some people complain that:
+- More code to write
+
+True, you need to write types here and there. But overall you will spend less time debugging in runtime.
+- Errors can be hard to understand
+
+They can be hard to understand. All in all, TypeScript can be discribed like this:
+
+https://twitter.com/markdalgleish/status/1175868526944387073
+
+- No type inference for function parameters
+
+There are languages in which type inference is more roboust that in TS
+
+- _Any_ is a proper type that one can use and basically get rid of static type checking
+
+I literly saw projects where a tech lead who didn't want to learn static typing allowed himself and others to use _any_ anytime they want.
+- A lot of configuration options opens door to loose TypeScript configuration which disables static type checking.
+
+Again, it is tempting to lower quality in favor of quick wins. This is like lowering test coverage threshold, it's very unlikely it will help in the long term perspective.
+
+### Further reading
+
+- [Our workshops](https://okelm.gitbook.io/devmeetings-react-ts-fork/)
+- Open source libs documentations
+- [TS docs](https://www.typescriptlang.org/docs/home.html) 
+- [This book](https://github.com/basarat/typescript-book) 
+
+Thing we've not talked about here but are important:
+- genertics
+- alternatives to TS
+- adding static type checking to your pipeline
+- when not to use TS at all
+
+### Summary
