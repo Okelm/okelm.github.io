@@ -13,7 +13,6 @@ description: "Typescript is THE tool"
 - **[Further reading]()**
 - **[Summary]()**
 
-
 ### What do you know that makes you think you can actually write about and teach TypeScript?
 
 I've been working with very different programming languages over the years. From some of them you would expect to receive incredible help from compiler, from others, well, significantly less help and sometimes you might be thinking the language itself is being obnoxios.
@@ -30,6 +29,8 @@ Interestingly, I had first started with TypeScript before I moved to JavaScript.
 
 In 2019 I ran workshops on React and TypeScript, the material can be found here: https://okelm.gitbook.io/devmeetings-react-ts-fork/ This was an collaborative effort of [Maciej Kucharski](https://github.com/kucharskimaciej), [Devmeetings](http://devmeetings.org/pl) and me.
 
+![](./nowy2.png)
+
 ## TypeScript in general. Benefits
 
 You may find various opinions on the Internet:
@@ -39,6 +40,7 @@ You may find various opinions on the Internet:
 >TypeScript together with VS Code are the best tools from the Microsoft
 
 People also poking fun at JavaScript:
+
 https://twitter.com/cszhu/status/1169859162047574016?s=20
 
 JavaScript leaves a lot to be desired, that's the fact. Even with new features coming regularly from the [commitee](https://github.com/tc39) it's really hard to keep up the pace of modern languages. While we cannot have everything, we can try make the world a better place by being more careful and considering thoroughly the tooling we choose.
@@ -62,9 +64,7 @@ That's my opinion, I know people are more opinionated about that. Like [Cem Tura
 
 ![](./ethics.jpeg)
 
-
 ### Compile-time, build-time, runtime but first... author-time
-
 
 Before a developer first take advantage of compile-time type checking, they can first experience a pleasent experience of roboust autocompletion when writing their code in most of the modern IDEs. The time you write your programs can be called **author-time**.
 
@@ -82,7 +82,9 @@ TypeScript has a different approach to typing. The difference lays basically bet
 
 By and large, it's the subject of discussion which approach is better, but most of developers would agree that for some programming langagues design it's more appropriate to have one approach than the other. So, _it depends_. The current trend is to rather have strong, static types, rather than loose and dynamic.
 
-Simply put, static type checking means that types are being checking on compile time, not during the exection of the program (which can basically cause the indisgraceful crash). It's simply too late, and a developer mind in unreliable from time to time. The information that the program has bugs comes later than it would if it had types checking on a daily basis, or at least in a build pipeline.
+Simply put, static type checking means that types are being checking on compile time, not during the execution of the program (which can basically cause the indisgraceful crash). It's simply too late, and a developer mind in unreliable from time to time (or most of the time). The information that the program has bugs comes later than it would if it had types checking on a daily basis, or at least in a build pipeline.
+
+>If it's faulty, it's better to learn about that quicker.
 
 But TypeScript type system can be described more detailed than just that. Google tells us this:
 
@@ -91,6 +93,7 @@ But TypeScript type system can be described more detailed than just that. Google
 - gradual
 - duck
 - structural
+
 But also:
 - partially inferred
 
@@ -295,9 +298,17 @@ Again, it is tempting to lower quality in favor of quick wins. This is like lowe
 - [This book](https://github.com/basarat/typescript-book) 
 
 Thing we've not talked about here but are important:
+- basics
 - genertics
 - alternatives to TS
 - adding static type checking to your pipeline
 - when not to use TS at all
 
 ### Summary
+
+TypeScript wants to become friend with you, it lets you write better JavaScript code. Better in the sense that it will be easier to maintain, onboard newcomers, find bugs quicker. In nutshell, you'll become more productive.
+
+It comes with the price. First you need to set things up, learn basics, tackle with errors... Sometimes the first thing to do is to persuade your team mates or leadership that this is the price worth paying.
+
+Paraphrasing a popular saying:
+>You need to spend time to make time.
