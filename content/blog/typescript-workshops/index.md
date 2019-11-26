@@ -15,9 +15,9 @@ description: "Typescript is THE tool"
 
 ### What do you know that makes you think you can actually write about and teach TypeScript?
 
-I've been working with very different programming languages over the years. From some of them you would expect to receive incredible help from compiler, from others, well, significantly less help and sometimes you might be thinking the language itself is being obnoxios.
+I've been working with very different programming languages over the years. From some of them you would expect to receive incredible help from compiler, from others, well, significantly less help and sometimes you might be thinking the language itself is being obnoxios...
 
-I've been working in the following setups:
+I've been working in the following JavaScript/TypeScript setups:
 
 - TypeScript
 - JavaScript with proptypes
@@ -27,7 +27,9 @@ I've been working in the following setups:
 
 Interestingly, I had first started with TypeScript before I moved to JavaScript. Which then occured to be quite popular way of entering JS world for people whose prior experience focuses on strongly typed languages like Java (for Android in my case).
 
-In 2019 I ran workshops on React and TypeScript, the material can be found here: https://okelm.gitbook.io/devmeetings-react-ts-fork/ This was an collaborative effort of [Maciej Kucharski](https://github.com/kucharskimaciej), [Devmeetings](http://devmeetings.org/pl) and me.
+In 2019 I ran [workshops on React and TypeScript](https://okelm.gitbook.io/devmeetings-react-ts-fork/). This was a collaborative effort of [Maciej Kucharski](https://github.com/kucharskimaciej), [Devmeetings](http://devmeetings.org/pl) and me.
+
+A lot of developers want to learn TypeScript, sometimes they don't know why. Well, there are very good reasons to do so.
 
 ![](./nowy2.png)
 
@@ -39,13 +41,13 @@ You may find various opinions on the Internet:
 >TypeScript is JavaScript for Java developers who need types
 >TypeScript together with VS Code are the best tools from the Microsoft
 
-People also poking fun at JavaScript:
+People also poking fun at JavaScript like this:
 
 https://twitter.com/cszhu/status/1169859162047574016?s=20
 
 JavaScript leaves a lot to be desired, that's the fact. Even with new features coming regularly from the [commitee](https://github.com/tc39) it's really hard to keep up the pace of modern languages. While we cannot have everything, we can try make the world a better place by being more careful and considering thoroughly the tooling we choose.
 
-I believe that a good developer experience happens when:
+I believe that a good developer experience happens when a programming language has these traits:
 
 - concepts can be expressed in a concise manner without too many boilerplate
 - the code is unambiguous and expressive
@@ -72,19 +74,19 @@ Before a developer first take advantage of compile-time type checking, they can 
 
 So it helps you even when you write your code, which leads to fewer typos. It also prevents you from checking an object property each time you want to access it, just because you've forgotten.
 
-Next is when your code is compiling and that's when static type checking is happending, it's called **compile-time**, which preceeds **build-time** - the time to gather up all the assets and build the app.
+Next is when your code is compiling and that's when static type checking is happening, it's called **compile-time**, which preceeds **build-time** - the time to gather up all the assets and build an app.
 
-Once you deploy your app and start using it after hours/weeks/years of development, you can say it finally runs. That is **runtime**, and that's the final destination of all the apps.
+Once you deploy your app and start using it after hours/weeks/years of development, you can say it finally runs. That is **runtime**, and that's the final destination of all the apps. It's also damn late to reveal all the bugs... But that's how dynamically typed languages like JavaScript works.
 
-### Type system - closer look
+### Type system - a closer look
 
-TypeScript has a different approach to typing. The difference lays basically between **static and dynamic** types.
+TypeScript has a different approach to typing. The difference lays mainly between **static and dynamic** types.
 
 By and large, it's the subject of discussion which approach is better, but most of developers would agree that for some programming langagues design it's more appropriate to have one approach than the other. So, _it depends_. The current trend is to rather have strong, static types, rather than loose and dynamic.
 
 Simply put, static type checking means that types are being checking on compile time, not during the execution of the program (which can basically cause the indisgraceful crash). It's simply too late, and a developer mind in unreliable from time to time (or most of the time). The information that the program has bugs comes later than it would if it had types checking on a daily basis, or at least in a build pipeline.
 
->If it's faulty, it's better to learn about that quicker.
+>If it's faulty, it's better to discover it quicker.
 
 But TypeScript type system can be described more detailed than just that. Google tells us this:
 
@@ -99,7 +101,7 @@ But also:
 
 #### Gradual
 
-It means that TypeScript allows you to add types to your existing JS codebase step by step. Or it is possible to use types only where you feel like it's approriate. It's a significant advantage for the existing codebases being rewritten to TypeScript.
+It means that TypeScript allows you to add types to your existing JS codebase step by step. Or it is possible to use types only where you feel like it's approriate. It's a significant advantage for existing codebases being rewritten to TypeScript.
 
 #### Duck and structural
 
@@ -135,7 +137,7 @@ Fot _gimmeName_ an object needs to have _name_, and for _performWork_ a function
 
 > If it walks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
 
-TypeScript allows you to expect the same, but it will verify it at compile-time and this feature of a language is called the structural subtyping.
+TypeScript allows you to expect the same, but it will verify it at compile-time and this feature of a language is called the structural subtyping (which seems to me is the compile-time duck types)
 
 
 ```jsx
@@ -166,7 +168,7 @@ gimmeName(employee) // <-- it doesn't complain
 
 ```
 
-The compiler won't complain when _gimmeName_ is invoked with an object of the _Employee_ type. The compiler is just interested in the fact that the _Employee_ has all the fields that _Person_ has. _Employee_ might have additional fields (like _work_) but if _Person_ has a field that is missing in _Employee_, compiler will return an error.
+The compiler won't complain when _gimmeName_ is invoked with an object of the _Employee_ type. The compiler is just interested in the fact that the _Employee_ has all the fields that _Person_ has (and more! read on ->). _Employee_ might have additional fields (like _work_) but if _Person_ has a field that is missing in _Employee_, compiler will return an error.
 
 
 ```jsx
@@ -199,13 +201,16 @@ gimmeName(employee)
 >Property 'walk' is missing in type 'Employee' but required in type 'Person'.
 
 That's basically how structural and duck typing work.
+TypeScript has a structural typing, because it matches the duck typing of JavaScript.
+
+The alternative to duck types is _nominal typing_ which places more importance on the actual type (it's name), rather than what it represent inside (structure). Two objects are type-compatible only if they are instances of the same type. Even if two types have the same structure, they are just two different types, period.
 
 #### Partial (but enough to be great) type inference
 
 It's not a must to write anytime an object or function is used.
 It would be tiring and inefficient to say the least.
 
-If you write a type once, the compiler knows what is the type of the structure and will validate it.
+If you write a type once, the compiler knows what is the type of the structure and will validate it. Though, it has some limitations like (TODO)
 
 ### Having a good configuration
 
