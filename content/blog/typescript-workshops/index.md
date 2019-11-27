@@ -31,14 +31,17 @@ In 2019 I ran [workshops on React and TypeScript](https://okelm.gitbook.io/devme
 
 A lot of developers want to learn TypeScript, sometimes they don't know why. Well, there are very good reasons to do so.
 
-![](./nowy2.png)
+![](./workshops.png)
 
 ## TypeScript in general. Benefits
 
 You may find various opinions on the Internet:
 >TypeScript is JavaScript with types
+
 >Types are for people who can't read code
+
 >TypeScript is JavaScript for Java developers who need types
+
 >TypeScript together with VS Code are the best tools from the Microsoft
 
 People also poking fun at JavaScript like this:
@@ -278,6 +281,7 @@ Some people complain that:
 - More code to write
 
 True, you need to write types here and there. But overall you will spend less time debugging in runtime.
+
 - Errors can be hard to understand
 
 They can be hard to understand. All in all, TypeScript can be discribed like this:
@@ -291,6 +295,7 @@ There are languages in which type inference is more roboust that in TS
 - _Any_ is a proper type that one can use and basically get rid of static type checking
 
 I literly saw projects where a tech lead who didn't want to learn static typing allowed himself and others to use _any_ anytime they want.
+
 - A lot of configuration options opens door to loose TypeScript configuration which disables static type checking.
 
 Again, it is tempting to lower quality in favor of quick wins. This is like lowering test coverage threshold, it's very unlikely it will help in the long term perspective.
@@ -315,5 +320,5 @@ TypeScript wants to become friend with you, it lets you write better JavaScript 
 
 It comes with the price. First you need to set things up, learn basics, tackle with errors... Sometimes the first thing to do is to persuade your team mates or leadership that this is the price worth paying.
 
-Paraphrasing a popular saying:
->You need to spend time to make time.
+Paraphrasing [a popular saying](https://www.phrasemix.com/phrases/you-have-to-spend-money-to-make-money):
+>You have to spend time to make time.
