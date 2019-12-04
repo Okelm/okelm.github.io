@@ -1,17 +1,17 @@
 ---
 title: TypeScript is your friend!
-date: "2019-12-5"
+date: "2019-12-05"
 description: "A lot of developers want to learn TypeScript, sometimes they don't know why. Well, there are very good reasons to do so."
 ---
 
-- **[What do you know that makes you think you can actually write and teach about TypeScript?]()**
-- **[TypeScript in general. Benefits]()**
-- **[Compile time, build time, run time and... author time]()**
-- **[Type system - a closer look]()**
-- **[Having a good configuration]()**
-- **[Caveats]()**
-- **[Further reading]()**
-- **[Summary]()**
+- **[What do you know that makes you think you can actually write and teach about TypeScript?](/#what-do-you-know-that-makes-you-think-you-can-actually-write-about-and-teach-typescript)**
+- **[TypeScript in general. Benefits](/#typescript-in-general-benefits)**
+- **[Compile time, build time, run time and... author time](/#compile-time-build-time-runtime-but-first-author-time)**
+- **[Type system - a closer look](/#type-system---a-closer-look)**
+- **[Having a good configuration](/#having-a-good-configuration)**
+- **[Caveats](/#caveats)**
+- **[Further reading](/#further-reading)**
+- **[Summary](/#summary)**
 
 ### What do you know that makes you think you can actually write about and teach TypeScript?
 
