@@ -1,4 +1,362 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 03 Oct 2019 07:52:37 GMT</lastBuildDate><item><title><![CDATA[Ramda vs Vanilla JS]]></title><description><![CDATA[Introduction CodeSandbox Safely accessing deeply nested values Data transformations Conditionals Merging objects Ranges generation Handling…]]></description><link>https://bwidlarz.com//ramda/</link><guid isPermaLink="false">https://bwidlarz.com//ramda/</guid><pubDate>Wed, 02 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bart Widlarz's Blog]]></title><description><![CDATA[As a software developer, team leader and business owner I write about technology from various perspectives. I specialize in React and React Native applications.]]></description><link>https://bwidlarz.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Dec 2019 19:29:35 GMT</lastBuildDate><item><title><![CDATA[TypeScript is your friend!]]></title><description><![CDATA[What do you know that makes you think you can actually write and teach about TypeScript? TypeScript in general. Benefits Compile time, build…]]></description><link>https://bwidlarz.com//typescript-workshops/</link><guid isPermaLink="false">https://bwidlarz.com//typescript-workshops/</guid><pubDate>Thu, 05 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;What do you know that makes you think you can actually write and teach about TypeScript?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;TypeScript in general. Benefits&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Compile time, build time, run time and… author time&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Type system - a closer look&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Having a good configuration&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Caveats&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Further reading&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;Summary&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-do-you-know-that-makes-you-think-you-can-actually-write-about-and-teach-typescript&quot;&gt;&lt;a href=&quot;#what-do-you-know-that-makes-you-think-you-can-actually-write-about-and-teach-typescript&quot; aria-label=&quot;what do you know that makes you think you can actually write about and teach typescript permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What do you know that makes you think you can actually write about and teach TypeScript?&lt;/h3&gt;
+&lt;p&gt;I’ve been working with very different programming languages over the years. From some of them you would expect to receive incredible help from the compiler, from others, well, significantly less help and sometimes you might be thinking the language itself is being obnoxious…&lt;/p&gt;
+&lt;p&gt;I’ve been working in the following JavaScript/TypeScript setups:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;JavaScript with PropTypes&lt;/li&gt;
+&lt;li&gt;JavaScript with Flow&lt;/li&gt;
+&lt;li&gt;rewriting JavaScript to TypeScript (or I should say “adding types” since JS was already quite similar to TS back then)&lt;/li&gt;
+&lt;li&gt;teaching TypeScript to seasoned JS developers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interestingly, I had first started with TypeScript before I moved to JavaScript. This was actually quite a popular way of entering the JS world for people whose prior experience focused on strongly typed languages such as Java (for Android in my case).&lt;/p&gt;
+&lt;p&gt;In 2019 I ran &lt;a href=&quot;https://okelm.gitbook.io/devmeetings-react-ts-fork/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;workshops on React and TypeScript&lt;/a&gt;. This was a collaborative effort of &lt;a href=&quot;https://github.com/kucharskimaciej&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Maciej Kucharski&lt;/a&gt;, &lt;a href=&quot;http://devmeetings.org/pl&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Devmeetings&lt;/a&gt; and me.&lt;/p&gt;
+&lt;p&gt;A lot of developers want to learn TypeScript, sometimes they don’t know why. Well, there are very good reasons to do so.&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.73730043541366%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;workshops&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/5186d/workshops.png&quot;
+        srcset=&quot;/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/cbe86/workshops.png 148w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/eda7d/workshops.png 295w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/5186d/workshops.png 590w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/5746e/workshops.png 885w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/b8acd/workshops.png 1180w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/95577/workshops.png 1770w,
+/static/c7a5dfa3a81c2280f7ffa34c05e99fd2/1a1e2/workshops.png 3445w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;typescript-in-general-benefits&quot;&gt;&lt;a href=&quot;#typescript-in-general-benefits&quot; aria-label=&quot;typescript in general benefits permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;TypeScript in general. Benefits&lt;/h2&gt;
+&lt;p&gt;You may find various opinions on the Internet:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TypeScript is JavaScript with types&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Types are for people who can’t read code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TypeScript is JavaScript for Java developers who need types&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TypeScript together with VS Code are the best tools fromMicrosoft&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;People also poke fun at JavaScript like this:&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;STOP making fun of different programming languages&lt;br /&gt;&lt;br /&gt;C is FAST&lt;br /&gt;&lt;br /&gt;Java is POPULAR&lt;br /&gt;&lt;br /&gt;Ruby is COOL&lt;br /&gt;&lt;br /&gt;Python is BEAUTIFUL&lt;br /&gt;&lt;br /&gt;Javascript&lt;br /&gt;&lt;br /&gt;Haskell is INTRIGUING&lt;/p&gt;&amp;mdash; christina zhu (@cszhu) &lt;a href=&quot;https://twitter.com/cszhu/status/1169859162047574016&quot;&gt;September 6, 2019&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;JavaScript leaves a lot to be desired, that’s the fact. Even with new features coming regularly from the &lt;a href=&quot;https://github.com/tc39&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;commitee&lt;/a&gt; it’s really hard to keep up the pace of modern languages. While we cannot have everything, we can try to make the world a better place by being more careful and considering thoroughly the tooling we choose.&lt;/p&gt;
+&lt;p&gt;I believe that a good developer experience happens when a programming language has these traits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;concepts can be expressed in a concise manner without too much boilerplate&lt;/li&gt;
+&lt;li&gt;the code is unambiguous and expressive&lt;/li&gt;
+&lt;li&gt;newcomers are welcomed with self documented code&lt;/li&gt;
+&lt;li&gt;the code is focused on data transformation rather than data obfuscation&lt;/li&gt;
+&lt;li&gt;a compiler or IDE helps you write quality code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TypeScript is here to help you achieve some of these ^ namely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;code becomes less ambiguous, thanks to having strictly defined types&lt;/li&gt;
+&lt;li&gt;code is more self-documented which helps newcomers to get into the project, but also to come back after some time and still be able to understand what is happening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The thing that I believe would make software development in JavaScript better is having a strong and static type system.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That’s my opinion, I know people are more opinionated about this issue. &lt;a href=&quot;https://twitter.com/cem2ran&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Cem Turan&lt;/a&gt; expressed his views on the subject in this way at the &lt;a href=&quot;https://appjs.co/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;App.js conference&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 83.740234375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBQIE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/9oADAMBAAIQAxAAAAHbimG9ChWTwaID/8QAGhAAAgIDAAAAAAAAAAAAAAAAABMDEAECEf/aAAgBAQABBQI7TdBsY2Mzf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABgQAAMBAQAAAAAAAAAAAAAAAAABMhAg/9oACAEBAAY/AtopFLj/xAAYEAACAwAAAAAAAAAAAAAAAAAAESAhYf/aAAgBAQABPyFlhmOVU//aAAwDAQACAAMAAAAQ8wfC/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAEDAQE/ECN//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxCMjHn/xAAfEAACAQIHAAAAAAAAAAAAAAAAAREQ0SExQVGR8PH/2gAIAQEAAT8QcVItKeBFoUuHfGx0nYXtWMg6f//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;ethics&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a33e8aa4fb1bba40cee5622d24c85d4f/d1491/ethics.jpg&quot;
+        srcset=&quot;/static/a33e8aa4fb1bba40cee5622d24c85d4f/f6ef9/ethics.jpg 148w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/dca31/ethics.jpg 295w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/d1491/ethics.jpg 590w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/08de0/ethics.jpg 885w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/3c224/ethics.jpg 1180w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/77f80/ethics.jpg 1770w,
+/static/a33e8aa4fb1bba40cee5622d24c85d4f/31c1c/ethics.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;compile-time-build-time-runtime-but-first-author-time&quot;&gt;&lt;a href=&quot;#compile-time-build-time-runtime-but-first-author-time&quot; aria-label=&quot;compile time build time runtime but first author time permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Compile-time, build-time, runtime but first… author-time&lt;/h3&gt;
+&lt;p&gt;Before a developer takes advantage of compile-time type checking, they will first encounter the pleasant experience of robust autocompletion when writing their code in most modern IDEs. The time spent on writing your programs can be called &lt;strong&gt;author-time&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 547px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.03473491773309%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABCUlEQVQY01WQzU7CQBRG+wZuXBhNjHbayhSY0plSSmUGWn5qIokYSNT3f5Dj0KjBxcn5vrmLmzvBc2VZ1Wtat8HogmySYcyUwpS9Z+Wcsqx8LimKH3zWpsAUU7Q25Fr3XRtDMCvm2NJRVUvu3Qm5+UC9fDHuPrnWHVdqzaM9EDdHQvfOXbX3PpA0J8+R29krD4s3xOrIjdkSDNOUM+lIkduObn/AtTuGmUYqgxiMEU9DYuk9GBH6HHn/cu7n936WpAQqy1FZhprk6GrFdrujbf0XNK13S6YUIgyJRNQTR9FfjoS46IIkjgk27RS3dKy7PbVrqOuahbVY6/pFSZIg/QVSygvSC+Q/fwPP1p4yOgwYJQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;autocomplete&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0f1044ce58ca6ec2cfec33f634ffb6b0/5186d/autocomplete.png&quot;
+        srcset=&quot;/static/0f1044ce58ca6ec2cfec33f634ffb6b0/cbe86/autocomplete.png 148w,
+/static/0f1044ce58ca6ec2cfec33f634ffb6b0/eda7d/autocomplete.png 295w,
+/static/0f1044ce58ca6ec2cfec33f634ffb6b0/5186d/autocomplete.png 590w,
+/static/0f1044ce58ca6ec2cfec33f634ffb6b0/5746e/autocomplete.png 885w,
+/static/0f1044ce58ca6ec2cfec33f634ffb6b0/f64d1/autocomplete.png 1094w&quot;
+        sizes=&quot;(max-width: 547px) 100vw, 547px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So TypeScript helps you even when you write your code, which leads to fewer typos. It also prevents you from checking an object property each time you want to access it, just because you’ve forgotten.&lt;/p&gt;
+&lt;p&gt;Next is when your code is compiling and that’s when static type checking is happening, it’s called &lt;strong&gt;compile-time&lt;/strong&gt;, which precedes &lt;strong&gt;build-time&lt;/strong&gt; - the time to gather up all the assets and build an app.&lt;/p&gt;
+&lt;p&gt;Once you deploy your app and start using it after hours/weeks/years of development, you can say it finally runs. That is &lt;strong&gt;runtime&lt;/strong&gt;, and that’s the final destination of all apps. It’s also damn late to reveal all the bugs… But that’s how dynamically typed languages like JavaScript work.&lt;/p&gt;
+&lt;h3 id=&quot;type-system---a-closer-look&quot;&gt;&lt;a href=&quot;#type-system---a-closer-look&quot; aria-label=&quot;type system   a closer look permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Type system - a closer look&lt;/h3&gt;
+&lt;p&gt;TypeScript has a different approach to typing. The difference lies mainly between &lt;strong&gt;static and dynamic&lt;/strong&gt; types.&lt;/p&gt;
+&lt;p&gt;By and large, it’s a subject of discussion which approach is better, but most developers would agree that for some programming languages’ design it’s more appropriate to have one approach rather than the other. So, &lt;em&gt;it depends&lt;/em&gt;. The current trend is to have strong, static types, rather than loose and dynamic ones.&lt;/p&gt;
+&lt;p&gt;Simply put, static type checking means that types are checked on compile time, not during the execution of the program (which can basically cause the disgraceful/shameful crash). It’s simply too late, and every developer’s mind is unreliable from time to time (or most of the time). The information that the program has bugs comes later than it would have if types were checked on a daily basis, or at least in a build pipeline.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If it’s faulty, it’s better to discover it quicker.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But TypeScript’s type system can be described in more detail than just that. Google tells us this:&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 473px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 161.94503171247356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAABYlAAAWJQFJUiTwAAAGKElEQVRIx5VWa0yTZxTun+3HZjYuylWgCpRrRXGK121e2Ywu0yDwZ1uyJcu2EC+LmMUxFfAyRYIK6rYY9cdm1MWYRScyh24y/TnJEEoplxZoS+9X2tKWPjvnrUW66IxvODl9z3e+59zPh6Tmm32IjY9HSnIqEhOTkJCShpjEVLwePwuxsbFITk5GYlIS4kk+My0NsTNnYsaMVyDLL0aOfBWkmSWQzl2M12KyUb27DpLDhw9DJstBYYEcstxcLF6yEvOLS5BH99y8PMjl81BUVISCQjly8gtJVoDc3DyULFuLN1e9j6Ur38PCRaXIki1BbV0jJLW1tZCmz0FOtgyy7CykpiQhaVY8EuJikBAfizS6JycmIiYuDinSTCSlSpFDhuXzlqNg/hoULVwLWd5yxM3Mwe6v6iE50nwKi1avhnzJW1j27mZs39eA7fsbsa22CVX7GlF98CSONzej5dRxNLecIDqOUy1NOHiwAXtqDqCmpp7oEKq27cblK9cgOdZ4FPJFFG5WOpZuqsCWSwZ8dKYDnzddw2cnruPTE7/g6A/t+O707zh5sg3Hm9rQ3NyKqqrtqKgoF1RevhXvlJaipaUFkoaGIyhanI/iNzKxbONWbLigwpZdR/FB2SZUVpShsnwLVr69GQlJBZidUYyE5ALMzS5BYeF8JKckI106m4qSgVepUDu/3AnJ/v01yM1PReG8FGQtWg5JxUVkrv8YK0vmY8WKFVi3fi1Wl36IBQs2YsmyLSheSHzpZuTlySGVZiAzaw6yZdmIo3zv2LkDkvPnz6KysgxbyZPq6p34604bfrt1Ezdu/IrWW7dwu+0mOh8qMDBgQl+fHv39RvQqdTh38WfsP3QEe+sPo/7bBuytO4grVymHwWAQYwYDHA4HjEYjLFYbPF4vPB4PXuQwDh/JxISfrA+gvb0d9+7dw/379/HgwQN0dHTA7XZjcnJSKDOfThEZH9azWq1hQBaaLVYYyDs7eelwOGGhu8lsgT8QEEqhUOh/KXIYSxKxEnkQ9iAk6EUOvy8A2XWtVovh4WGMjo7CZDJhbGwMer1+irOcn7Mek0ajETKdTid+M58CDFBYKpWKKtiHnp4ewZl6e3uhUCgwNDREle0nmUpwlj969EhwpVIpdNjoVMgMyC8xGAOzJ6zILzPngqlUfcTDYGxscHBQ/O7s7BSd4ff7o0NmJbbK1hiAeXd3xNtBPOpSoaebjY0KMDbKemw0ki7GYVBJgPuQcsWW2HXOIbeATqclGqGKuzE67MOw2vfcwoRDJsCIRU4we6DRDMNs8sNk9EE7Og6jwUOG9BgZYQOWqKpOb50pwO7ubhEmh8h51Ot19LIVmiEPkZu8c9PdRh6PUojhTpiYmIhqmaiisFdceia1egg2mxkGg4leNmNY48ToiAd6nQc6rYPuBqFjNpvhcrmmRm4KkAVcTS4K866uPqiHxihcO3mqpbHyidB1FLrZNAGb1UsGOcfhFHCFH/sZBmQBe8jECoYxL0aGOW/eqHCeNyVRHkaKES6OikhJskEKmzw1GZ85z08tCi+Arq4uPHzYSc3djT7lEFR9TvT12il0FwYHnFAq7LCYfdO8CT3TgFgOXBgOnfl/l0KQdkcgQAsjGGA0+mOvgoKe2ocMpFarBRlo0fIIqjVqKHoUUFIbqVUKeD3ux2l/Qryj7I5xsZidTpdYfcEI4NlzF1BbfwBNTU1irlnJajMiNOHGzX4PrrV2Anf2IGgZxKSrDTA2ImRqxrhDCV6ZQfLe5/OFPeRVv6Z0A2anZyA/P180uXd8nHrMLLw6/UCL1m3rgNtfiLu1qxLqmy9BeycOAeefcHsDcNjN4M0vZtnj8WJDWTnm5mTRvxv5VKB/4PW64XY5RWimG3/g+0+acOV6uI1cvRUw3n0Zpo5Y+O134ackj7ttYnI4/+Kb0njmMnZ93YC6+mO0OHU0vw5o1FbOMq0oE6p/HMNPV00wGSbhGLkE3d81cA4cQtA7CB5ttysQ/QnwjZNlJzDhExhizPQ6L3zeILy+SXjsTzYNfWowogVsDqo+Fdow5oHV4osG5KROTgaI+x/PZmhqlARRq/j9wcfPAoJCoem6T76C/wJmYT/4VMUSQAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;typescript google&quot;
+        title=&quot;&quot;
+        src=&quot;/static/25f6e5f0ff5390139dd34ec30132fe66/5186d/typescript-google.png&quot;
+        srcset=&quot;/static/25f6e5f0ff5390139dd34ec30132fe66/cbe86/typescript-google.png 148w,
+/static/25f6e5f0ff5390139dd34ec30132fe66/eda7d/typescript-google.png 295w,
+/static/25f6e5f0ff5390139dd34ec30132fe66/5186d/typescript-google.png 590w,
+/static/25f6e5f0ff5390139dd34ec30132fe66/5746e/typescript-google.png 885w,
+/static/25f6e5f0ff5390139dd34ec30132fe66/c31de/typescript-google.png 946w&quot;
+        sizes=&quot;(max-width: 473px) 100vw, 473px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gradual&lt;/li&gt;
+&lt;li&gt;duck&lt;/li&gt;
+&lt;li&gt;structural&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;partially inferred&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;gradual&quot;&gt;&lt;a href=&quot;#gradual&quot; aria-label=&quot;gradual permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gradual&lt;/h4&gt;
+&lt;p&gt;It means that TypeScript allows you to add types to your existing JS codebase step by step. Or it is possible to use types only where you feel like it’s appropriate. It’s a significant advantage for existing codebases being rewritten to TypeScript.&lt;/p&gt;
+&lt;h4 id=&quot;duck-and-structural&quot;&gt;&lt;a href=&quot;#duck-and-structural&quot; aria-label=&quot;duck and structural permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Duck and structural&lt;/h4&gt;
+&lt;p&gt;The JavaScript type system can be described as being &lt;strong&gt;duck typed&lt;/strong&gt; which means that the type checking is basically checking if in the particular runtime situation an object has particular properties or behaviors. Like in the example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;gimmeName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;somebody&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; somebody&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;performWork&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token parameter&quot;&gt;somebody&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; somebody&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;walking&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; employee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Bart&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;working&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;gimmeName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;employee&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// Bart&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;gimmeName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// John&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;performWork&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;employee&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// working&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;performWork&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// runtime error: undefined is not a function&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As long as an object has a property a function wants to use, it’s an object of the proper type. For &lt;em&gt;gimmeName&lt;/em&gt; an object needs to have the &lt;em&gt;name&lt;/em&gt; property, and for &lt;em&gt;performWork&lt;/em&gt; the function &lt;em&gt;work&lt;/em&gt;. That’s it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If it walks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;TypeScript allows you to expect the same, but it will verify it at compile-time and this feature of a language is called structural subtyping (which seems to me is the compile-time equivalent of duck types)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;gimmeName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;somebody&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;somebody&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Employee&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; string&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; employee&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Employee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Bart&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;working hard&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;gimmeName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// John&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;gimmeName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;employee&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &amp;lt;-- it doesn&apos;t complain &lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// Bart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The compiler won’t complain when &lt;em&gt;gimmeName&lt;/em&gt; is invoked with an object of the Employee type. The compiler is just interested in the fact that the &lt;em&gt;Employee&lt;/em&gt; has all the fields that &lt;em&gt;Person&lt;/em&gt; has (and more! read on -&gt;). &lt;em&gt;Employee&lt;/em&gt; might have additional fields (like &lt;em&gt;work&lt;/em&gt;) but if &lt;em&gt;Person&lt;/em&gt; has a field that is missing in &lt;em&gt;Employee&lt;/em&gt;, compiler will return an error.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;gimmeName&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;somebody&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;somebody&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; String&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Employee&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; String&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Person &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;walk&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; employee&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Employee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Bart&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;token function-variable function&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;gimmeName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;employee&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Argument of type ‘Employee’ is not assignable to parameter of type ‘Person’.
+Property ‘walk’ is missing in type ‘Employee’ but required in type ‘Person’.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That’s basically how structural and duck typing work.
+TypeScript has structural typing, because it matches the duck typing of JavaScript.&lt;/p&gt;
+&lt;p&gt;The alternative to duck types is &lt;em&gt;nominal typing&lt;/em&gt; which places more importance on the actual type (it’s name), rather than what it represent inside (structure). Two objects are type-compatible only if they are instances of the same type. Even if two types have the same structure, they are just two different types, period.&lt;/p&gt;
+&lt;h4 id=&quot;partial-but-enough-to-be-great-type-inference&quot;&gt;&lt;a href=&quot;#partial-but-enough-to-be-great-type-inference&quot; aria-label=&quot;partial but enough to be great type inference permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Partial (but enough to be great) type inference&lt;/h4&gt;
+&lt;p&gt;It’s not a must to write anytime an object or function is used. It would be tiring and inefficient to say the least.&lt;/p&gt;
+&lt;p&gt;If you write a type once, the compiler knows the type of the structure and will validate it. However, it has some limitations like (TODO)&lt;/p&gt;
+&lt;h3 id=&quot;having-a-good-configuration&quot;&gt;&lt;a href=&quot;#having-a-good-configuration&quot; aria-label=&quot;having a good configuration permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Having a good configuration&lt;/h3&gt;
+&lt;p&gt;The TypeScript compiler is configurable and the style of programming we get in TypeScript depends on that config.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Two teams with different TS config files can be using TS in a vastly different way.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The config file is usually placed in the top level folder and named &lt;em&gt;config.ts&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This is the file I used for one project in 2017 for one of our React Native projects:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&quot;compilerOptions&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;target&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;es6&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;module&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;es2015&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;allowJs&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;jsx&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;sourceMap&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;outDir&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./build&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;strict&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;noImplicitAny&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;strictFunctionTypes&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;strictNullChecks&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;noImplicitThis&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;alwaysStrict&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;noUnusedLocals&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;noUnusedParameters&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;noImplicitReturns&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;noFallthroughCasesInSwitch&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;moduleResolution&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;node&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;allowSyntheticDefaultImports&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;preserveConstEnums&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;pretty&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;skipLibCheck&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&quot;include&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;./src/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;./types/&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&quot;compileOnSave&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;From all the noise (but some of these may well come in handy one day) these are the ones that make your TypeScript code safe:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;strict &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Enable all strict type&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;checking options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+alwaysStrict &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Parse &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; strict mode and emit &lt;span class=&quot;token string&quot;&gt;&quot;use strict&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; each source file&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+strictNullChecks &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Enable strict &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; checks&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+noImplicitAny &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Raise error on expressions and declarations &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; an implied &lt;span class=&quot;token string&quot;&gt;&apos;any&apos;&lt;/span&gt; type
+noImplicitThis &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Raise error on &lt;span class=&quot;token string&quot;&gt;&apos;this&apos;&lt;/span&gt; expressions &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; an implied &lt;span class=&quot;token string&quot;&gt;&apos;any&apos;&lt;/span&gt; type&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+noUnusedLocals &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Report errors on unused locals&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+noUnusedParameters &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Report errors on unused parameters&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+noImplicitReturns &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Report error when not all code paths &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; a value&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+noFallthroughCasesInSwitch &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; Report errors &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; fallthrough cases &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; statement&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you start a new project you want to have all the flags set to true&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you are to add TypeScript to an existing project you should consider setting some of them to false at the beginning&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;caveats&quot;&gt;&lt;a href=&quot;#caveats&quot; aria-label=&quot;caveats permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Caveats&lt;/h3&gt;
+&lt;p&gt;Some people complain that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More code to write&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;True, you need to write types here and there. But overall you will spend less time debugging in runtime.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Errors can be hard to understand
+They can be hard to understand. All in all, TypeScript can be described like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://t.co/6ulFV92JHk&quot;&gt;pic.twitter.com/6ulFV92JHk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mark Dalgleish (@markdalgleish) &lt;a href=&quot;https://twitter.com/markdalgleish/status/1175868526944387073&quot;&gt;September 22, 2019&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;No type inference for function parameters
+There are languages in which type inference is more robust than in TS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Any&lt;/em&gt; is a proper type that one can use and basically get rid of static type checking
+I literally saw projects where a tech lead who didn’t want to learn static typing allowed himself and others to use any anytime they wanted to.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A lot of configuration options may lead to loose TypeScript configuration which disables static type checking.
+Again, it is tempting to lower quality in favor of quick wins. This is like lowering the test coverage threshold, it’s very unlikely it will help in the long-term perspective.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;further-reading&quot;&gt;&lt;a href=&quot;#further-reading&quot; aria-label=&quot;further reading permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Further reading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://okelm.gitbook.io/devmeetings-react-ts-fork/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Our workshops&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open source libs documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/docs/home.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;TS docs&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/basarat/typescript-book&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;This book&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Things we’ve not talked about here but are important:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;basics&lt;/li&gt;
+&lt;li&gt;genertics&lt;/li&gt;
+&lt;li&gt;alternatives to TS&lt;/li&gt;
+&lt;li&gt;adding static type checking to your pipeline&lt;/li&gt;
+&lt;li&gt;when not to use TS at all&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; aria-label=&quot;summary permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h3&gt;
+&lt;p&gt;TypeScript wants to become friends with you, it lets you write better JavaScript code. Better in the sense that it will be easier to maintain, onboard newcomers, find bugs quicker. In a nutshell, you’ll become more productive.&lt;/p&gt;
+&lt;p&gt;It comes with a price. First you need to set things up, learn the basics, tackle errors… Sometimes the first thing to do is to persuade your teammates or leadership that this is a price worth paying.&lt;/p&gt;
+&lt;p&gt;Paraphrasing &lt;a href=&quot;https://www.phrasemix.com/phrases/you-have-to-spend-money-to-make-money&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;a popular saying&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You have to spend time to save time.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Ramda vs Vanilla JS]]></title><description><![CDATA[Introduction CodeSandbox Safely accessing deeply nested values Data transformations Conditionals Merging objects Ranges generation Handling…]]></description><link>https://bwidlarz.com//ramda/</link><guid isPermaLink="false">https://bwidlarz.com//ramda/</guid><pubDate>Wed, 02 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/ramda/#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/ramda/#codesandbox&quot;&gt;CodeSandbox&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/ramda/#safely-accessing-deeply-nested-values&quot;&gt;Safely accessing deeply nested values&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
