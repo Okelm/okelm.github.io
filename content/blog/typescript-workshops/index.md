@@ -4,14 +4,14 @@ date: "2019-12-05"
 description: "A lot of developers want to learn TypeScript, sometimes they don't know why. Well, there are very good reasons to do so."
 ---
 
-- **[What do you know that makes you think you can actually write and teach about TypeScript?](/#what-do-you-know-that-makes-you-think-you-can-actually-write-about-and-teach-typescript)**
-- **[TypeScript in general. Benefits](/#typescript-in-general-benefits)**
-- **[Compile time, build time, run time and... author time](/#compile-time-build-time-runtime-but-first-author-time)**
-- **[Type system - a closer look](/#type-system---a-closer-look)**
-- **[Having a good configuration](/#having-a-good-configuration)**
-- **[Caveats](/#caveats)**
-- **[Further reading](/#further-reading)**
-- **[Summary](/#summary)**
+- **[What do you know that makes you think you can actually write and teach about TypeScript?](/typescript-workshops/#what-do-you-know-that-makes-you-think-you-can-actually-write-about-and-teach-typescript)**
+- **[TypeScript in general. Benefits](/typescript-workshops/#typescript-in-general-benefits)**
+- **[Compile time, build time, run time and... author time](/typescript-workshops/#compile-time-build-time-runtime-but-first-author-time)**
+- **[Type system - a closer look](/typescript-workshops/#type-system---a-closer-look)**
+- **[Having a good configuration](/typescript-workshops/#having-a-good-configuration)**
+- **[Caveats](/typescript-workshops/#caveats)**
+- **[Further reading](/typescript-workshops/#further-reading)**
+- **[Summary](/typescript-workshops/#summary)**
 
 ### What do you know that makes you think you can actually write about and teach TypeScript?
 
