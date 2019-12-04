@@ -1,7 +1,7 @@
 ---
 title: TypeScript is your friend!
-date: "2019-11-22"
-description: "Typescript is THE tool"
+date: "2019-12-5"
+description: "A lot of developers want to learn TypeScript, sometimes they don't know why. Well, there are very good reasons to do so."
 ---
 
 - **[What do you know that makes you think you can actually write and teach about TypeScript?]()**
@@ -312,4 +312,4 @@ TypeScript wants to become friends with you, it lets you write better JavaScript
 It comes with a price. First you need to set things up, learn the basics, tackle errors... Sometimes the first thing to do is to persuade your teammates or leadership that this is a price worth paying.
 
 Paraphrasing [a popular saying](https://www.phrasemix.com/phrases/you-have-to-spend-money-to-make-money):
->You have to spend time to make time.
+>You have to spend time to save time.
